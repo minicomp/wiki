@@ -1,1 +1,0 @@
-# Minicomp Documentation Wiki
