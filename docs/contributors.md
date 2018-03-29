@@ -91,6 +91,6 @@ The following list is a start towards the [all-contributors specification](https
   </tr>
 </table>
 
-## Contribute
+### Contribute
 
 Check back for forthcoming contributing guides.

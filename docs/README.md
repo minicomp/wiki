@@ -12,12 +12,12 @@ This site includes documentation for our main projects, and will likely serve as
 ### Projects
 
 ### Ed.
-A gem-packaged theme and workflow for creating minimal critical editions with [Jekyll](http://jekyllrb.com/).
+A gem-packaged theme and workflow for creating __minimal critical editions__ with [Jekyll](http://jekyllrb.com/).
 
 [See more](ed/)
 
 ### Wax
-A soon-to-be gem-packaged theme, set of interoperable components, and extensible workflow for creating minimal digital exhibitions with [Jekyll](http://jekyllrb.com/).
+A soon-to-be gem-packaged theme, set of interoperable components, and extensible workflow for creating __minimal scholarly exhibitions__ with [Jekyll](http://jekyllrb.com/).
 
 [See more](wax/)
 
