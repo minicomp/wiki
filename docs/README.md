@@ -9,7 +9,7 @@ We create __workflows__, __components__, and __proofs-of-concept__, and the resu
 
 This site includes documentation for our main projects, and will likely serve as a repository for blog posts and tutorials in the future.
 
-## Projects
+### Projects
 
 ### Ed.
 A gem-packaged theme and workflow for creating minimal critical editions with [Jekyll](http://jekyllrb.com/).

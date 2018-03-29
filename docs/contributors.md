@@ -1,13 +1,9 @@
-# Maintainers
+# Contributors
 
-The following lists are a start towards the [all-contributors specification](https://github.com/kentcdodds/all-contributors) using  [emoji key](https://github.com/kentcdodds/all-contributors#emoji-key).
+The following list is a start towards the [all-contributors specification](https://github.com/kentcdodds/all-contributors) using  [emoji key](https://github.com/kentcdodds/all-contributors#emoji-key).
 
 <style>td{width:150px;vertical-align:top;padding:10px;}</style>
-<table>
 
-</table>
-
-## Contributors
 
 <table>
   <tr>
@@ -70,7 +66,7 @@ The following lists are a start towards the [all-contributors specification](htt
       🔌 💬
     </td>
   </tr>
-  <tr> 
+  <tr>
     <td>
       <a href="https://github.com/herdofsheep">
         <img src="https://github.com/herdofsheep.png" width="125"/><br>
@@ -94,3 +90,7 @@ The following lists are a start towards the [all-contributors specification](htt
     </td>
   </tr>
 </table>
+
+## Contribute
+
+Check back for forthcoming contributing guides.

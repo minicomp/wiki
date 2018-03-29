@@ -1,17 +1,11 @@
 # Wax Tasks
-[![Gem Version](https://badge.fury.io/rb/wax_tasks.svg)](https://badge.fury.io/rb/wax_tasks)
-[![Dependency Status](https://gemnasium.com/badges/github.com/mnyrop/wax_tasks.svg)](https://gemnasium.com/github.com/mnyrop/wax_tasks) [![Build Status](https://travis-ci.org/mnyrop/wax_tasks.svg?branch=rubocop)](https://travis-ci.org/mnyrop/wax_tasks)
 
-A gem-packaged set of [Rake](https://ruby.github.io/rake/) tasks for creating minimal exhibitions with [Jekyll](https://jekyllrb.com/), [IIIF](http://iiif.io), and [ElasticLunr.js](http://elasticlunr.com/).
+Wax Tasks is a gem-packaged set of [Rake](https://ruby.github.io/rake/) tasks for creating minimal exhibitions with [Jekyll](https://jekyllrb.com/), [IIIF](http://iiif.io), and [ElasticLunr.js](http://elasticlunr.com/). These tasks are the muscle behind [Wax](/wax/)—building search indexes, generating pages, running tests and more behind the scenes.
 
 
-<br>
-<img src="https://github.com/mnyrop/wax_tasks/blob/master/docs/wax_screen.gif?raw=true"/>
+## Getting Started
 
-
-# Getting Started
-
-## Prerequisites
+### Prerequisites
 
 You'll need `Ruby >= 2.2` with `bundler` installed. Check your versions with:
 ```bash
@@ -32,9 +26,9 @@ $ convert -version
   Delegates (built-in): bzlib freetype jng jpeg ltdl lzma png tiff xml zlib
 ```
 
-You can learn more about using ImageMagick and `wax_tasks` [here](docs/imagemagick.md) or ignore this completely if you do not plan to generate IIIF derivatives.
+You can learn more about installing ImageMagick (e.g., for [mac](http://macappstore.org/imagemagick/) or [ubuntu](https://www.tutorialspoint.com/articles/how-to-install-imagemagick-on-ubuntu)) or ignore this completely if you do not plan to generate IIIF derivatives.
 
-## Installing
+### Installing
 
 Add `wax_tasks` to your Jekyll site's Gemfile:
 
@@ -54,37 +48,37 @@ spec = Gem::Specification.find_by_name 'wax_tasks'
 Dir.glob("#{spec.gem_dir}/lib/tasks/*.rake").each {|r| load r}
 ```
 
-# Running the Tasks
+## Running the Tasks
 
 After following the installation instructions above, you will have access to the rake tasks in your shell by running `$ bundle exec rake wax:taskname` in the root directory of your Jekyll site.
 
 
-## wax:pagemaster
+### wax:pagemaster
 
 Takes a CSV or JSON file of collection metadata and generates a Markdown page for each record to a directory using a specified layout. [Read More](/wax/tasks/pagemaster).
 
 `$ bundle exec rake wax:pagemaster collection-name`
 
-## wax:lunr
+### wax:lunr
 
 Generates a client-side JSON search index of your site for use with [ElasticLunr.js](http://elasticlunr.com/). [Read More](/wax/tasks/lunr).
 
 `$ bundle exec rake wax:lunr`
 
-## wax:iiif
+### wax:iiif
 
 Takes a local directory of images and generates tiles and data that work with a IIIF compliant image viewer like [OpenSeaDragon](https://openseadragon.github.io/), [Mirador](http://projectmirador.org/), or [Leaflet IIIF](https://github.com/mejackreed/Leaflet-IIIF). [Read More](/wax/tasks/iiif).
 
 `$ bundle exec rake wax:iiif collection-name`
 
-## wax:test
+### wax:test
 
 Runs [`htmlproofer`](https://github.com/gjtorikian/html-proofer) on your compiled site to look for broken links, HTML errors, and accessibility concerns. Runs [Rspec](http://rspec.info/) tests if a `.rspec` file is present. [Read More](/wax/tasks/test).
 
 `$ bundle exec rake wax:test`
 
 
-## wax:push
+### wax:push
 
 There are two tasks within the namespace `wax:push`: `gh` and `s3`, which push the compiled exhibition site to the `gh-pages` and `s3` branches of your repository respectively for deployment. [Read More](/wax/tasks/push)
 
