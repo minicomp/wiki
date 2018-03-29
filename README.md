@@ -1,1 +1,1 @@
-# documentation-wiki
+# Minicomp Documentation Wiki
