@@ -1,3 +1,5 @@
+[![logo](../logo.png)](/)
+
 # Minicomp/Ed.
 
 ## About

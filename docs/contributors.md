@@ -1,3 +1,5 @@
+[![logo](/logo.png)](/)
+
 # Contributors
 
 The following list is a start towards the [all-contributors specification](https://github.com/kentcdodds/all-contributors) using  [emoji key](https://github.com/kentcdodds/all-contributors#emoji-key).
