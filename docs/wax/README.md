@@ -1,8 +1,8 @@
-[![logo](../logo.png)](/)
+[![logo](./../assets/logo.png)](/)
 
 # Minicomp/Wax
 
-[![wax_screen](/wax_screen.gif)](https://minicomp.github.io/wax/)
+[![wax_screen](./../assets/wax_screen.gif)](https://minicomp.github.io/wax/)
 
 > Live Wax Demo site: <https://minicomp.github.io/wax/>.<br>
 > Wax Demo repository: <https://github.com.minicomp/wax/>.

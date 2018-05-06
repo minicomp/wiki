@@ -1,4 +1,4 @@
-[![logo](../../logo.png)](/)
+[![logo](./../../assets/logo.png)](/)
 
 # Setting up your System
 

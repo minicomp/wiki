@@ -1,10 +1,11 @@
-[![logo](../../logo.png)](/)
+[![logo](./../../assets/logo.png)](/)
 
 # Pre-preparing your Data and Metadata
 
 I.e., the step before **'start'** below
 
-<a href="/wax/wax_workflow.jpeg"><img src="/wax/wax_workflow.jpeg" style="border:1px grey solid;margin:30px 0 30px 0;"/></a>
+
+![wax_workflow](./../../assets/wax_workflow.jpeg#border-img)
 
 ### Expectations
 

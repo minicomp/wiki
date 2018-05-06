@@ -1,4 +1,4 @@
-[![logo](../../logo.png)](/)
+[![logo](./../../assets/logo.png)](/)
 
 # Using Wax Tasks
 
@@ -21,11 +21,11 @@ $ bundle exec jekyll serve
 
 and navigating to `localhost:4000/wax/` in your browser.
 
-<a href="/wax/wax_still.png"><img src="/wax/wax_still.png" width="600" style="border:1px grey solid;margin: 30px 0 30px 0;"/></a>
+![wax_still](./../../assets/wax_still.png#border-img)
 
 Open the files in a text editor like [Atom](https://atom.io/): `$ atom .`
 
-<a href="/wax/wax_dir.png"><img src="/wax/wax_dir.png" width="600" style="margin: 30px 0 30px 0;"/></a>
+![wax_dir](./../../assets/wax_dir.png#border-img)
 
 ### Test with current data
 
@@ -53,6 +53,6 @@ $ bundle exec rake wax:lunr
 
 You should see:
 
-<img src="/wax/pm_screen.png" style="margin: 0 0 30px 0;"/>
+![pm_screen](./../../assets/pm_screen.png#border-img)
 
 ### Test with your own data

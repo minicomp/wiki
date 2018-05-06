@@ -1,3 +1,3 @@
-[![logo](../logo.png)](/)
+[![logo](./../assets/logo.png)](/)
 
 # Posts
