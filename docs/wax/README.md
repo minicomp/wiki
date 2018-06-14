@@ -11,10 +11,27 @@
 
 Wax is an extensible workflow for producing __scholarly exhibitions__ with [minimal computing](http://go-dh.github.io/mincomp/) principles. It focuses on a few key tasks for creating digital exhibitions as static sites, namely:
 
-- generating pages for exhibition items from metadata
-- generating IIIF tiles and JSON for deep-zooming and interoperability
+- generating pages for exhibition items from (meta)data files
+- generating IIIF derivatives and JSON for deep-zooming viewers and interoperable image content
 - generating a search index
 - running tests to catch errors
+
+Wax is comprised of a few Ruby gems, some customizable UI components, and a lot of documentation/recipes for use using them to create, deploy, and maintain digital exhibitions.
+
+# Who is it for?
+
+Wax is for individuals and groups who either don't have or don't want to use a lot of resources to create scholarly exhibitions. It's best suited for folks who are willing to take on some technical responsibility in exchange for a lot of flexibility.
+
+At the moment, Wax has a relatively high but general-purpose learning curve. To get the most out of Wax, you should have some familiarity with:
+
+- Using an interactive shell (e.g., Bash/Terminal) to install and interact with programs and libraries on your local machine.
+- Using Git and GitHub to version control and collaborate on projects
+- Using Jekyll to generate static sites.
+- Creating and normalizing data files (e.g., CSVs, JSOM, YAML)
+- File-naming conventions and best practices
+- Writing HTML, CSS, and some JavaScript
+
+If you do not meet the requirements above, not to worry! There's a [guide](wax/guides/catchup#top) with resources to catch you up.
 
 # Wax Demo
 
@@ -35,7 +52,7 @@ __For searching/indexing:__
 - [elasticlunr.js](http://elasticlunr.com/)
 
 __For IIIF generation/presentation:__
-- [wax_iiif gem](https://github.com/minicomp/wax_iiif/) (fork of [iiif_s3]()https://github.com/cmoa/iiif_s3)
+- [wax_iiif gem](https://github.com/minicomp/wax_iiif/) (fork of [iiif_s3](https://github.com/cmoa/iiif_s3))
 - [leaflet.js](http://leafletjs.com/) and [leaflet-iiif.js](https://github.com/mejackreed/Leaflet-IIIF)
 - [imagemagick](https://www.imagemagick.org/script/index.php)
 

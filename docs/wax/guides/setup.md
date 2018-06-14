@@ -12,7 +12,7 @@ $ ruby -v
 $ bundler -v
   Bundler version 1.16.1
 ```
-> Stuck with an earlier system Ruby and don't know where to start? This [guide](https://learn.cloudcannon.com/jekyll/install-jekyll-on-linux/) is a good one. Side note: Windows does not play particularly nicely with Jekyll. It is strongly recommended you use a Unix machine running Linux/Ubuntu/Mac, but do what you must!
+> Stuck with an earlier system Ruby and don't know where to start? This [guide](https://learn.cloudcannon.com/jekyll/install-jekyll-on-linux/) is a good one. Side note: Windows does not play particularly nicely with Jekyll. It is strongly recommended you use Linux/Ubuntu/MacOS, but do what you must!
 
 ### ImageMagick
 
