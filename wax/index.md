@@ -7,7 +7,7 @@ nav_order: 4
 ---
 # Minicomp/Wax
 
-<img src="{{ '/assets/wax_screen.gif/' | absolute_url }}"/>
+<img src="{{ '/assets/wax_screen.gif' | absolute_url }}"/>
 
 ## What is Wax?
 
