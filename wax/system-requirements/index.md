@@ -9,7 +9,7 @@ permalink: /wax/system-requirements/
 
 # System requirements
 
-You'll need __modern Ruby__ (`>=2.4`) with __Bundler__,  __Git__, __ImageMagick__, and __GhostScript__. You can check your versions with the steps below, or follow a full [Installation guide]( {{ '/system-requirements/installation-guide/' | absolute_url }}).
+You'll need __modern Ruby__ (`>=2.4`) with __Bundler__,  __Git__, __ImageMagick__, and __GhostScript__. You can check your versions with the steps below, or follow a full [Installation guide]( {{ '/wax/system-requirements/installation-guide/' | absolute_url }}).
 
 Check for Ruby:
 

@@ -39,7 +39,7 @@ bundle exec rake wax:derivatives:simple YOUR_COLLECTION_NAME
 
 When you run the line above for your collection, the task will:
 
-1. Look for the directory of source images you specified in your `_config.yml` file under `collections` > `YOUR_COLLECTION_NAME` > `images` > `source` (See: [Updating your configuration]({{ '/setting-up-your-site/updating-your-configuration/' | absolute_url }}))
+1. Look for the directory of source images you specified in your `_config.yml` file under `collections` > `YOUR_COLLECTION_NAME` > `images` > `source` (See: [Updating your configuration]({{ '/wax/setting-up-your-site/updating-your-configuration/' | absolute_url }}))
 
 
 2. Generate two copies of each image (full size and thumbnail, with 1140px and 250px widths, respectively) into the directory `img/derivatives/YOUR_COLLECTION_NAME`
@@ -58,7 +58,7 @@ bundle exec rake wax:derivatives:iiif YOUR_COLLECTION_NAME
 
 When you run the line above for your collection, the task will:
 
-1. Look for the directory of source images you specified in your `_config.yml` file under `collections` > `YOUR_COLLECTION_NAME` > `images` > `source` (See: [Updating your configuration]({{ '/setting-up-your-site/updating-your-configuration/' | absolute_url }}))
+1. Look for the directory of source images you specified in your `_config.yml` file under `collections` > `YOUR_COLLECTION_NAME` > `images` > `source` (See: [Updating your configuration]({{ '/wax/setting-up-your-site/updating-your-configuration/' | absolute_url }}))
 
 
 2. Generate many IIIF derivatives, image tiles, and JSON representations of the collection items into the directory `img/derivatives/YOUR_COLLECTION_NAME`.

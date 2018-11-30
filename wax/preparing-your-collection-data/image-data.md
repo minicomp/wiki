@@ -13,7 +13,7 @@ Wax accepts `.tiff`, `.jpeg`, `.png`, and `.pdf` files and assumes relatively hi
 
 ## Requirements
 
-For Wax to work, __each source image file must be named to match its__ `pid` __in the metadata exactly.__ (See: the [Metadata guide]({{ '/preparing-your-collection-data/metadata/' | absolute_url }})).
+For Wax to work, __each source image file must be named to match its__ `pid` __in the metadata exactly.__ (See: the [Metadata guide]({{ '/wax/preparing-your-collection-data/metadata/' | absolute_url }})).
 
 For example, say the `pid` for your record in the metadata is `obj45` and that it represents a single jpeg image. You'd name your source image `obj45.jpeg`.
 

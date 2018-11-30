@@ -55,11 +55,11 @@ collections:
 | `metadata:source` | string | path to the collection's metadata file within the `_data` directory | wax |
 | `images:source` | string | path to the collection's directory of images within the `_data` directory  | wax |
 
-There are more configuration variables for collections within `metadata` and `images` for [advanced use cases]({{ '/advanced/' | absolute_url }}).
+There are more configuration variables for collections within `metadata` and `images` for [advanced use cases]({{ '/wax/advanced/' | absolute_url }}).
 
 # Search settings
 
-The `lunr_index` variable can create multiple indexes (the dash represents an item in a list in YAML), though one is recommended. For Wax to use search it needs two files: a JSON search index and a javascript search UI to search for and display results. Both can be created by Wax using the [lunr task](to-do) and the information below.
+The `lunr_index` variable can create multiple indexes (the dash represents an item in a list in YAML), though one is recommended. For Wax to use search it needs two files: a JSON search index and a javascript search UI to search for and display results. Both can be created by Wax using the [lunr task]({{ '/wax/running-the-tasks/lunr/' | absolute_url }}) and the information below.
 
 ```yml
 

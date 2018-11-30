@@ -17,12 +17,12 @@ You can check by running `bundle exec rake --tasks`. You should see a list of ta
 
 ### Step 2: Generate the image derivatives for your collection from the source images.
 
-You'll do this by running one of the [wax:derivatives tasks]({{ '/running-the-tasks/derivatives/' | absolute_url }}).
+You'll do this by running one of the [wax:derivatives tasks]({{ '/wax/running-the-tasks/derivatives/' | absolute_url }}).
 
 ### Step 3: Generate the collection pages from the metadata records.
 
-You'll do this by running the [wax:pagemaster task]({{ '/running-the-tasks/pagemaster/' | absolute_url }}).
+You'll do this by running the [wax:pagemaster task]({{ '/wax/running-the-tasks/pagemaster/' | absolute_url }}).
 
 ### Step 4: Generate the search index and default UI.
 
-You'll do this by running the [wax:lunr task]({{ '/running-the-tasks/lunr/' | absolute_url }}).
+You'll do this by running the [wax:lunr task]({{ '/wax/running-the-tasks/lunr/' | absolute_url }}).

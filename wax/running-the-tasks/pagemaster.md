@@ -19,7 +19,7 @@ bundle exec rake wax:pagemaster YOUR_COLLECTION_NAME
 
 This will:
 
-1. Look for the metadata file you specified in your `_config.yml` file under `collections` > `YOUR_COLLECTION_NAME` > `metadata` > `source` (See: [Updating your configuration]({{ '/setting-up-your-site/updating-your-configuration/' | absolute_url }}))
+1. Look for the metadata file you specified in your `_config.yml` file under `collections` > `YOUR_COLLECTION_NAME` > `metadata` > `source` (See: [Updating your configuration]({{ '/wax/setting-up-your-site/updating-your-configuration/' | absolute_url }}))
 
 2. Generate a directory named after your collection prepended with an underscore (e.g., `_qatar` or `_your_collectio_name`)
 
