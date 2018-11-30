@@ -4,6 +4,7 @@ baseurl:        '/wiki'
 theme:          just-the-docs
 exclude:        [README.md, LICENSE, Gemfile*, Rakefile]
 permalink:      pretty
+search_enabled: true
 
 aux_links:
   'GitHub':
@@ -12,14 +13,3 @@ aux_links:
     - 'https://minicomp.github.io/wax/'
   'Ed. Demo':
     - 'https://minicomp.github.io/ed/'
-
-sidebar:
-  - label: Home
-    link: '/'
-  - label: Ed.
-    link: '/ed/'
-  - label: Wax
-    link: '/wax/'
-    sub:
-      - label: 'About'
-        link: '/wax/about/'

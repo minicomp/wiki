@@ -1,0 +1,12 @@
+---
+---
+{
+  {% for page in site.html_pages %}"{{ forloop.index0 }}": {
+    "id": {{ forloop.index0 | jsonify }},
+    "title": {{ page.title | xml_escape | jsonify }},
+    "content": {{ page.content | markdownify | strip_html | xml_escape | remove: 'Table of contents' | strip_newlines | replace: '\', ' ' | jsonify }},
+    "url": {{ page.url | absolute_url | xml_escape | jsonify }},
+    "relUrl": {{ page.url | xml_escape | jsonify }}
+  }{% if forloop.last %}{% else %},
+  {% endif %}{% endfor %}
+}
