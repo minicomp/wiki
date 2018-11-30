@@ -1,0 +1,25 @@
+title:          'Minicomp Wiki'
+baseurl:        '/wiki'
+
+theme:          just-the-docs
+exclude:        [README.md, LICENSE, Gemfile*, Rakefile]
+permalink:      pretty
+
+aux_links:
+  'GitHub':
+    - 'https://github.com/minicomp/'
+  'Wax Demo':
+    - 'https://minicomp.github.io/wax/'
+  'Ed. Demo':
+    - 'https://minicomp.github.io/ed/'
+
+sidebar:
+  - label: Home
+    link: '/'
+  - label: Ed.
+    link: '/ed/'
+  - label: Wax
+    link: '/wax/'
+    sub:
+      - label: 'About'
+        link: '/wax/about/'
