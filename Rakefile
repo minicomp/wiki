@@ -1,3 +1,6 @@
+spec = Gem::Specification.find_by_name 'wax_tasks'
+Dir.glob("#{spec.gem_dir}/lib/tasks/*.rake").each { |r| load r }
+
 require 'html-proofer'
 
 desc 'run htmlproofer, rspec if .rspec file exists'

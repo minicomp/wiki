@@ -1,4 +1,5 @@
 title:          'Minicomp Wiki'
+url:            'https://minicomp.github.io'
 baseurl:        '/wiki'
 
 theme:          just-the-docs
