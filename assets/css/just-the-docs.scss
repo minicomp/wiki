@@ -58,3 +58,18 @@
     color: inherit;
   }
 }
+
+.contributors {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+}
+.contributor {
+  width: 125px;
+  margin: 1em;
+  text-align: center;
+}
+
+.ytp-title{
+  display: none;
+}

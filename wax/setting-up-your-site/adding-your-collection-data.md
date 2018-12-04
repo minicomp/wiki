@@ -37,4 +37,4 @@ Delete the following files and directories:
 - Drag your own directory of images (named after your collection) into `_data/raw_images`
 - Drag your own metadata file into `_data`
 
-<iframe src="{{ '/assets/wax_swap.mp4' | absolute_url }}" style="width:100%;height:450px;margin:1rem 0 1rem 0;"/>
+<iframe height="480" src="https://www.youtube-nocookie.com/embed/w4sczhEqYbo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="width:100%" allowfullscreen></iframe>

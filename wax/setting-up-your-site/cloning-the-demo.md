@@ -9,7 +9,7 @@ permalink: /wax/setting-up-your-site/cloning-the-demo/
 
 # Cloning the demo
 
-## Option 1. Clone the demo for use with GitHub pages
+## Option 1. Download the demo for use with GitHub pages
 
 1. Change directory into where you'd like your site, e.g., your Desktop:
     ```sh
@@ -49,6 +49,4 @@ permalink: /wax/setting-up-your-site/cloning-the-demo/
     bundle exec jekyll serve
     ```
 
- When the demo site is serving correctly you're ready to swap in your own content and configuration to make your own exhibition site.
-
- <iframe src="{{ '/assets/wax_clone.mp4' | absolute_url }}" style="width:100%;height:450px;margin:1rem 0 1rem 0"/>
+When the demo site is serving correctly you're ready to swap in your own content and configuration to make your own exhibition site.

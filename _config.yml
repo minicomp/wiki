@@ -13,3 +13,12 @@ aux_links:
     - 'https://minicomp.github.io/wax/'
   'Ed. Demo':
     - 'https://minicomp.github.io/ed/'
+
+collections:
+  sample:
+    output: false
+    layout: null
+    metadata:
+      source: sample.csv
+    images:
+      source: sample_images

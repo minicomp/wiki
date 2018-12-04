@@ -11,26 +11,6 @@ permalink: /wax/running-the-tasks/derivatives/
 
 There are two tasks namespaced under wax:derivatives, namely [wax:derivatives:simple](#waxderivativessimple) and [wax:derivatives:iiif](#waxderivativesiiif) which represent the two options for generating collection image derivatives. __You will only run one of these tasks per collection and you should only need to run it once.__
 
-## Which one should I use?
-
-### Simple derivatives
-
-| Pros | Cons   |
-|:-----|:-------|
-| Fewer files to create, manage, and host | Doesn't handle items with multiple images / pdf format |
-| Loads faster on webpages | Lower quality images, no zooming |
-| Users can copy/download full images | Users can copy/download full images |
-
-
-### IIIF derivatives
-
-| Pros | Cons   |
-|:-----|:-------|
-| Image content is __interoperable__, meaning it is standardized, (re)usable, and citable broadly (see: <https://iiif.io/community/faq/#what-is-iiif>)| Slow to generate |
-| Image content can leverage embedded metadata   | Slower to load on the page than simple derivatives  |
-| Can handle multiple images / paged content per collection item   | Requires the page to use a JS image viewer  |
-| Offers deep zooming of full images with no loss; Images are loaded quickly relative to the high resolution offered   | Higher technical overhead, more complex |
-
 ## wax:derivatives:simple
 
 ```sh
@@ -67,3 +47,25 @@ When you run the line above for your collection, the task will:
 3. Automatically add three fields (`full`, `thumbnail`, and `manifest`) to each of your metadata records with the relative paths to the full and thumbnail size image derivatives and the IIIF manifest.
 
 (e.g., `bundle exec rake wax:derivatives:iiif qatar`)
+
+
+
+## Which one should I use?
+
+### Simple derivatives
+
+| Pros | Cons   |
+|:-----|:-------|
+| Fewer files to create, manage, and host | Doesn't handle items with multiple images / pdf format |
+| Loads faster on webpages | Lower quality images, no zooming |
+| Users can copy/download full images | Users can copy/download full images |
+
+
+### IIIF derivatives
+
+| Pros | Cons   |
+|:-----|:-------|
+| Image content is __interoperable__, meaning it is standardized, (re)usable, and citable broadly (see: <https://iiif.io/community/faq/#what-is-iiif>)| Slow to generate |
+| Image content can leverage embedded metadata   | Slower to load on the page than simple derivatives  |
+| Can handle multiple images / paged content per collection item   | Requires the page to use a JS image viewer  |
+| Offers deep zooming of full images with no loss; Images are loaded quickly relative to the high resolution offered   | Higher technical overhead, more complex |
