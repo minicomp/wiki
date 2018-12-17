@@ -6,8 +6,6 @@ nav_order: 1
 
 ![logo]({{ '/assets/logo.png' | absolute_url }})
 
-# Minicomp
-
 Minicomp is a collaborative effort in embedding __minimal computing principles__ (e.g. [Minimal Maintenance](http://go-dh.github.io/mincomp/thoughts/2016/10/03/tldr/#minimal-maintenance), [Minimal Dependencies](http://go-dh.github.io/mincomp/thoughts/2016/10/03/tldr/#minimal-dependencies), and [Minimal Connectivity](http://go-dh.github.io/mincomp/thoughts/2016/10/03/tldr/#minimal-connectivity)) in __digital humanities__ methods.
 
 We create __workflows__, __components__, and __proofs-of-concept__, and the results are rarely turnkey. As such, we welcome contributors of all kinds and [define contributions broadly]({{ '/contributors/' | absolute_url }}).
