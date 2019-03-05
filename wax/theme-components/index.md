@@ -51,6 +51,12 @@ __Wax__ comes with a lot of `includes` that you can browse on Github [here](http
   `{% include wax/collection/gallery.html collection=[collection key] facet_by=[key to group items by] %}`
 {% endraw %}
 
+#### Optional:
+
+{% raw %}
+  `{% include wax/collection/gallery.html collection=[collection key] facet_by=[key to group items by] only="[a subset of the collection]" %}`
+{% endraw %}
+
 ### wax/collection/interactive_metadata.html [→](https://github.com/minicomp/wax/blob/gh-pages/_includes/wax/collection/interactive_metadata.html)
 
 #### Usage:
