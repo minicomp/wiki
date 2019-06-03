@@ -1,10 +1,4 @@
 language: ruby
 rvm:      2.4
-branches:
-  except:
-    - gh-pages
-
 script:
   - bundle exec rake test
-after_success:
-  - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then bundle exec rake wax:push gh-pages; fi
