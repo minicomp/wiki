@@ -19,7 +19,7 @@ The main settings are direct from Jekyll. You can learn more through their [conf
 
 title:            'Minicomp/Wax'
 description:      'Minimal Exhibitions with Jekyll'
-url:              ''
+url:              'https://minicomp.github.io'
 baseurl:          '/wax'
 copyright:        'Example copyright org, 2018'
 
@@ -59,13 +59,12 @@ There are more configuration variables for collections within `metadata` and `im
 
 # Search settings
 
-The `lunr_index` variable can create multiple indexes (the dash represents an item in a list in YAML), though one is recommended. For Wax to use search it needs two files: a JSON search index and a javascript search UI to search for and display results. Both can be created by Wax using the [lunr task]({{ '/wax/running-the-tasks/lunr/' | absolute_url }}) and the information below.
+The `search` variable can create multiple indexes, though just one (`main`) is recommended. For Wax to use search it needs to a search index, which will be saved as a JSON file.
 
 ```yml
-
-lunr_index:
-  - file: 'js/lunr-index.json' # file the index will get written to
-    ui:   'js/lunr-ui.js' # path to the search UI file
+search:
+  main:
+    index: '/search/index.json' # file the index will get written to
     collections:
       qatar:
         content: false # whether or not to index page content
@@ -80,10 +79,8 @@ lunr_index:
 
 | variable      | type accepted | description | used by  |
 |:--------------|:--------------|:------------|:---------|
-| `lunr_index`  | list | list of search indexes | wax |
-| `file`        | string | the path (within the root of the site) to write the index to | wax |
-| `ui`          | string | the path (within the root of the site) to write the UI to | wax |
-| `collections` | hash   | which collections (as defined in `collections` above) to index | wax |
+| `index`        | string | the path (within the root of the site) to write the index to | wax |
+| `collections` | hash   | which collections (as defined in `collections` above) will be indexed | wax |
 | `content`     | true/false | within a collection: whether or not to index the page content in addition to the metadata in the front matter | wax |
 | `fields`      | list | within a collection: the metadata fields to index | wax |
 

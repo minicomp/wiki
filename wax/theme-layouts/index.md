@@ -8,7 +8,7 @@ parent: Wax
 
 # Using theme layouts
 
-Wax five layouts for you to use and/or expand on: `wax/default.html`, `wax/page.html`, `wax/exhibit.html`, `wax/collection_item.html`, and `wax/reuse_page.html`. (See the on [Github](https://github.com/minicomp/wax/tree/gh-pages/_layouts/wax).)
+Wax five layouts for you to use and/or expand on: `wax/default.html`, `wax/page.html`, `wax/exhibit.html`, `wax/collection_item.html`, and `wax/reuse_page.html`. (See the on [Github](https://github.com/minicomp/wax/tree/master/_layouts).)
 
 You can tell a page to use a layout by adding it to the page's [front-matter](https://jekyllrb.com/docs/front-matter/), for example:
 
@@ -21,14 +21,14 @@ layout: wax/exhibit
 ---
 ```
 
-Or you can make your own layout file that *inherits* from a Wax layout, for example the `qatar_item.html` layout which inherits from `wax/collection_item`:
+Or you can make your own layout file that *inherits* from a Wax layout, for example the `qatar_item.html` layout which inherits from `generic_collection_item.html`:
 
 __.__ `_layouts/qatar_item.html`
 
 ```markdown
 ---
-layout: wax/collection_item
-image_viewer: 'leaflet'
+layout: generic_collection_item.html
+image_viewer: 'openseadragon'
 pagination: true
 meta:
   - label: 'Object Label'

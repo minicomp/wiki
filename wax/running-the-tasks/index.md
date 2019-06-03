@@ -9,7 +9,7 @@ permalink: /wax/running-the-tasks/
 
 # Running the main tasks
 
-__The order in which you run the following rake tasks is important!__ For example, the  `derivatives` tasks give information to the metadata file, so it needs to be run before the pages are generated from the metadata. And the `lunr` task indexes the collection markdown pages, so those pages need to exist before it is run.
+__The order in which you run the following rake tasks is important!__ For example, the  `derivatives` tasks give information to the metadata file, so it needs to be run before the `pages` task generates pages from the metadata. And the `search` task indexes the collection markdown pages, so those pages need to exist before it is run.
 
 ### Step 1: Make sure you have the tasks available.
 
@@ -21,8 +21,8 @@ You'll do this by running one of the [wax:derivatives tasks]({{ '/wax/running-th
 
 ### Step 3: Generate the collection pages from the metadata records.
 
-You'll do this by running the [wax:pagemaster task]({{ '/wax/running-the-tasks/pagemaster/' | absolute_url }}).
+You'll do this by running the [wax:pages task]({{ '/wax/running-the-tasks/pages/' | absolute_url }}).
 
-### Step 4: Generate the search index and default UI.
+### Step 4: Generate the search index.
 
-You'll do this by running the [wax:lunr task]({{ '/wax/running-the-tasks/lunr/' | absolute_url }}).
+You'll do this by running the [wax:search task]({{ '/wax/running-the-tasks/search/' | absolute_url }}).

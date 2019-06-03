@@ -1,20 +1,20 @@
 ---
 layout: default
-title: 'wax:pagemaster'
+title: 'wax:pages'
 nav_order: 2
 parent: Running the tasks
 grand_parent: Wax
-permalink: /wax/running-the-tasks/pagemaster/
+permalink: /wax/running-the-tasks/pages/
 ---
 
-# wax:pagemaster
+# wax:pages
 
-Wax:pagemaster is the task responsible for generating a page for each of your collection items and is the simplest task to configure and use.
+Wax:pages is the task responsible for generating a page for each of your collection items and is the simplest task to configure and use.
 
 You can run the task with:
 
 ```sh
-bundle exec rake wax:pagemaster YOUR_COLLECTION_NAME
+bundle exec rake wax:pages YOUR_COLLECTION_NAME
 ```
 
 This will:
