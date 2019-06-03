@@ -2,7 +2,7 @@ title:          'Minicomp Wiki'
 baseurl:        '/wiki'
 
 theme:          just-the-docs
-exclude:        [README.md, LICENSE, Gemfile*, Rakefile]
+exclude:        [README.md, LICENSE, Gemfile*, Rakefile, vendor]
 permalink:      pretty
 search_enabled: true
 
