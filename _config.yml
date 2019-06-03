@@ -3,7 +3,7 @@ baseurl:        '/wiki'
 
 exclude:        [README.md, LICENSE, Gemfile*, Rakefile, vendor]
 permalink:      pretty
-search_enabled: true
+search_enabled: false
 safe:           true
 
 aux_links:
