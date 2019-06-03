@@ -4,6 +4,7 @@ baseurl:        '/wiki'
 exclude:        [README.md, LICENSE, Gemfile*, Rakefile, vendor]
 permalink:      pretty
 search_enabled: true
+safe:           true
 
 aux_links:
   'GitHub':
