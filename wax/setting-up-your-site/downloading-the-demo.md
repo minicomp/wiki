@@ -7,7 +7,7 @@ grand_parent: Wax
 permalink: /wax/setting-up-your-site/downloading-the-demo/
 ---
 
-# Cloning the demo
+# Downloading the demo
 
 1. Change directory into where you'd like your site, e.g., your Desktop:
     ```sh
