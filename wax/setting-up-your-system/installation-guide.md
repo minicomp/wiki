@@ -17,7 +17,7 @@ permalink: /wax/system-requirements/installation-guide/
     brew -v
     ```
 
-    If you don't have Homebrew, visit [the Homebrew site](https://brew.sh/) for installation instructions. Once Homebrew is installed you are ready to install the latest Ruby version:
+    If you don't have Homebrew, visit [the Homebrew site](https://brew.sh/) for installation instructions. In the process of installing Homebrew, you may get asked to install XCode Command Line Tools. Say yes. If you succesfully install XCode, you can skip the Installing Git section below. Once Homebrew is installed you are ready to install the latest Ruby version:
 
     ```sh
     brew install ruby
@@ -28,7 +28,7 @@ permalink: /wax/system-requirements/installation-guide/
 # Installing Git
 
 - **Windows 10 and Linux**: The [Git Download page](https://git-scm.com/downloads) includes good instructions and packages for all three major operating systems.
-- **Mac**: The best way to install git on a Mac remains to simply type `git --version` on the terminal. If you don't have it, your system will ask you to install XCode. Say yes. After that process is over, git should work on your machine.
+- **Mac**: If for some reason you still don't have git install on your Mac, the best way to do it remains to simply type `git --version` on the terminal. If you don't have it, your system will ask you to install XCode Command Line Tools. Say yes. After that process is over, git should work on your machine.
 
 # Installing Jekyll and Bundler
 
