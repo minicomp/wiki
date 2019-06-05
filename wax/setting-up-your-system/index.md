@@ -1,7 +1,7 @@
 ---
 layout: default
-title: System requirements
-nav_order: 2
+title: Setting up your system
+nav_order: 1
 has_children: true
 parent: Wax
 permalink: /wax/system-requirements/
@@ -9,7 +9,7 @@ permalink: /wax/system-requirements/
 
 # System requirements
 
-You'll need __modern Ruby__ (`>=2.4`) with __Bundler__,  __Git__, __ImageMagick__, and __GhostScript__. You can check your versions with the steps below, or follow a full [Installation guide]( {{ '/wax/system-requirements/installation-guide/' | absolute_url }}).
+You'll need __modern Ruby__ (`>=2.4`) with __Bundler__,  __Git__, __ImageMagick__, and __GhostScript__. You can check your versions with the steps below. If you don't have current versions for these packages, see our [Installation guide]( {{ '/wax/system-requirements/installation-guide/' | absolute_url }}).
 
 Check for Ruby:
 
@@ -49,3 +49,4 @@ $ gs -version
   GPL Ghostscript 9.21 (2017-03-16)
   Copyright (c) 2017 Artifex Software, Inc.  All rights reserved.
 ```
+
