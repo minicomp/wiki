@@ -25,6 +25,11 @@ permalink: /wax/system-requirements/installation-guide/
 
 - **Linux**: Instructions for installing Ruby on Linux can be found on the [Ruby installation site](https://www.ruby-lang.org/en/documentation/installation/).
 
+# Installing Git
+
+- **Windows 10 and Linux**: The [Git Download page](https://git-scm.com/downloads) includes good instructions and packages for all three major operating systems.
+- **Mac**: The best way to install git on a Mac remains to simply type `git --version` on the terminal. If you don't have it, your system will ask you to install XCode. Say yes. After that process is over, git should work on your machine.
+
 # Installing Jekyll and Bundler
 
 - **Windows 10**: If all went well with RubyInstaller, you should be able to simply open a new command prompt window from the start menu and run: 
@@ -37,11 +42,6 @@ permalink: /wax/system-requirements/installation-guide/
     gem install jekyll bundler
     ```
 - **Linux**: To make sure that you have all the right dependencies, make sure to follow the [installation guide on the Jekyll site](https://jekyllrb.com/docs/installation/ubuntu/).
-
-# Installing Git
-
-- **Windows 10 and Linux**: The [Git Download page](https://git-scm.com/downloads) includes good instructions and packages for all three major operating systems.
-- **Mac**: The best way to install git on a Mac remains to simply type `git --version` on the terminal. If you don't have it, your system will ask you to install XCode. Say yes. After that process is over, git should work on your machine.
 
 # Installing ImageMagick
 
