@@ -11,7 +11,7 @@ For folks who have done this before or are experienced devs:
 
 1. Clone [the demo](https://github.com/minicomp/wax/).
 2. Run `bundle install` to install dependencies.
-3. Delete the demo-specific collection files and directories (i.e., `_data/raw_images/qatar`, `_data/qatar.csv`, and `_qatar`).
+3. Delete the demo-specific collection files and directories (i.e., `_data/raw_images/qatar`, `_data/qatar.csv`, `img/derivatives` and `_qatar`).
 4. Change `_layouts/qatar-item.html` to a layout for your collection.
 5. Swap in your own directory of images and metadata file for each collection.
 6. Add your collection(s) to `_config.yml` (referencing your new layout), set up your `search` config, change site `title`, `url`, `baseurl`, etc.
