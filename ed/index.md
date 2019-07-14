@@ -48,7 +48,7 @@ As we see it, a minimal edition is one that aims to reduce the size and complexi
 
 This documentation was built with beginners in mind, but has the necessary information for more seasoned producers.
 
-To install and use Ed you will be using your terminal. If you need a refresher, I highly recommend "[The Command Line Crash Course](https://www.computervillage.org/articles/CommandLine.pdf)." Working knowledge of HTML and CSS is also taken for granted. If you're new to HTML and CSS, you may want to check out the relevant courses on [codecademy.com](https://www.codecademy.com/learn/web).
+To install and use Ed you will be using your terminal. If you need a refresher, I highly recommend "[The Command Line Crash Course](https://www.computervillage.org/articles/CommandLine.pdf)." Working knowledge of HTML and CSS is also taken for granted. If you're new to HTML and CSS, you may want to check out the relevant courses on [codecademy.com](https://www.codecademy.com/learn/web), the [W3Schools](https://www.w3schools.com/html/) or do the [free modules at the One Month HTML Tutorial](https://onemonth.com/courses/learn-html-free).
 
 Jekyll does not run very well on Windows machines for now. If you are using Windows, this theme won't work for you, but we hope that you simply deploy our principles, and parts of our stylesheet, on a system like [Hugo](https://gohugo.io/), which does work on Windows.
 
