@@ -36,7 +36,7 @@ This is to say that Wax has a relatively high but general-purpose learning curve
 - Using an interactive shell (e.g., Bash/Terminal) to install and interact with programs, files, and directories on your local computer.
 - Using Git and GitHub to version control and collaborate on projects.
 - Using Jekyll to generate static sites.
-- Creating and normalizing data files (e.g., CSVs, JSOM, YAML)
+- Creating and normalizing data files (e.g., CSVs, JSON, YAML)
 - Using file-naming conventions and best practices.
 - Editing HTML, CSS, and some JavaScript.
 
