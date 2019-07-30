@@ -8,7 +8,7 @@ parent: Wax
 
 # Using theme layouts
 
-Wax five layouts for you to use and/or expand on: `wax/default.html`, `wax/page.html`, `wax/exhibit.html`, `wax/collection_item.html`, and `wax/reuse_page.html`. (See the on [Github](https://github.com/minicomp/wax/tree/master/_layouts).)
+Wax five layouts for you to use and/or expand on: `wax/default.html`, `wax/page.html`, `wax/exhibit.html`, `wax/collection_item.html`, and `wax/reuse_page.html`. (See them on [Github](https://github.com/minicomp/wax/tree/master/_layouts).)
 
 You can tell a page to use a layout by adding it to the page's [front-matter](https://jekyllrb.com/docs/front-matter/), for example:
 
