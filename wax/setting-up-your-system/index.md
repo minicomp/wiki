@@ -9,7 +9,11 @@ permalink: /wax/system-requirements/
 
 # System requirements
 
-You'll need __modern Ruby__ (`>=2.4`) with __Bundler__,  __Git__, __ImageMagick__, and __GhostScript__. You can check your versions with the steps below. If you don't have current versions for these packages, see our [Installation guide]( {{ '/wax/system-requirements/installation-guide/' | absolute_url }}).
+For a native installation, you'll need __modern Ruby__ (`>=2.4`) with __Bundler__,  __Git__, __ImageMagick__, and __GhostScript__, 
+_or_ 
+For a Docker installation, you'll need __modern Docker__ (`>=19.03`)
+
+You can check your versions with the steps below. If you don't have current versions for these packages, see our [Installation guide]( {{ '/wax/system-requirements/installation-guide/' | absolute_url }}).
 
 Check for Ruby:
 
@@ -50,3 +54,8 @@ $ gs -version
   Copyright (c) 2017 Artifex Software, Inc.  All rights reserved.
 ```
 
+Check Docker:
+```sh
+$ docker version
+  Version:          19.03.8
+```

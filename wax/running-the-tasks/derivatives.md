@@ -13,8 +13,16 @@ There are two tasks namespaced under wax:derivatives, namely [wax:derivatives:si
 
 ## wax:derivatives:simple
 
+### Native installation
+
 ```sh
 bundle exec rake wax:derivatives:simple YOUR_COLLECTION_NAME
+```
+
+### Docker installation
+
+```sh
+docker run --rm -v $PWD:/app --name wax-demo wax:1.1.0-snapshot "bundle exec rake wax:derivatives:simple YOUR_COLLECTION_NAME"
 ```
 
 When you run the line above for your collection, the task will:
@@ -32,8 +40,16 @@ When you run the line above for your collection, the task will:
 
 ## wax:derivatives:iiif
 
+### Native installation
+
 ```sh
 bundle exec rake wax:derivatives:iiif YOUR_COLLECTION_NAME
+```
+
+### Docker installation
+
+```sh
+docker run --rm -v $PWD:/app --name wax-demo wax:1.1.0-snapshot "bundle exec rake wax:derivatives:iiif YOUR_COLLECTION_NAME"
 ```
 
 When you run the line above for your collection, the task will:

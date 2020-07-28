@@ -13,8 +13,16 @@ Wax:pages is the task responsible for generating a page for each of your collect
 
 You can run the task with:
 
+## Native installation
+
 ```sh
 bundle exec rake wax:pages YOUR_COLLECTION_NAME
+```
+
+## Docker installation
+
+```sh
+docker run --rm -v $PWD:/app --name wax-demo wax:1.1.0-snapshot "bundle exec rake wax:pages YOUR_COLLECTION_NAME"
 ```
 
 This will:

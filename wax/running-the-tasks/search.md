@@ -13,8 +13,16 @@ Wax:search is the task responsible for generating a search index for your site t
 
 You can run the task with:
 
+## Native installation
+
 ```sh
 bundle exec rake wax:search SEARCH_NAME
+```
+
+## Docker installation
+
+```sh
+docker run --rm -v $PWD:/app --name wax-demo wax:1.1.0-snapshot "bundle exec rake wax:search SEARCH_NAME"
 ```
 
 This will:

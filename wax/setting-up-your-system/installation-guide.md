@@ -51,3 +51,8 @@ permalink: /wax/system-requirements/installation-guide/
 # Installing GhostScript
 
 Chances are you already have the GhostScript you need, but if you need the latest version the [GhostScript installation page](https://docs.alfresco.com/5.0/tasks/Ghostscript-install.html) includes good instructions and packages for all three major operating systems.
+
+# Installing Docker
+
+_You only need to install Docker if you are not installing Wax natively._
+Installation instructions for Windows, MacOS and Linux can be found in the [Docker docs](https://docs.docker.com/get-docker/).
