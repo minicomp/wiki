@@ -40,7 +40,7 @@ This is to say that Wax has a relatively high but general-purpose learning curve
 - Using file-naming conventions and best practices.
 - Editing HTML, CSS, and some JavaScript.
 
-**However, Wax is also great for teaching the skills above!** For examples of digital humanities pedagogy through the creation of Wax exhibitions, check out [this workshop](https://library.columbia.edu/news/events/event.html?guid=CAL-00bb9e25-6667531c-0166-695e8946-00001777events%40columbia.edu&returnlinkurl=/content/libraryweb/research/workshops&returnlinktext=Workshops), [this GitHub repository](https://github.com/stylerevolution/stylerevolution.github.io), and [this custom Wax site](https://stylerevolution.github.io/).
+**However, Wax is also great for teaching the skills above!** For examples of digital humanities pedagogy through the creation of Wax exhibitions, check out [this workshop series](http://web.sas.upenn.edu/dream-lab/minimalcomputing/), [this GitHub repository](https://github.com/stylerevolution/stylerevolution.github.io), and [this custom Wax site](https://stylerevolution.github.io/).
 
 ## So what does Wax *look like?*
 
