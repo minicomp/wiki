@@ -1,10 +1,13 @@
-title:          'Minicomp Wiki'
-baseurl:        '/wiki'
+title:            'Minicomp Wiki'
+baseurl:          '/wiki'
 
-exclude:        [README.md, LICENSE, Gemfile*, Rakefile, vendor]
-permalink:      pretty
-search_enabled: false
-source:         src
+theme:            just-the-docs
+exclude:          [README.md, LICENSE, Gemfile*, Rakefile, vendor]
+permalink:        pretty
+search_enabled:   false
+heading_anchors:  true
+source:           src
+github:           [metadata]
 
 
 aux_links:

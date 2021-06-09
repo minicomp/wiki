@@ -52,4 +52,4 @@ From there, you can run tests on your site to catch errors and decide where and 
 
 ## How can I get help?
 
-You can submit questions, issues, and feature requests on [GitHub](https://github.com/minicomp/wax/issues/) or ask informally using your GitHub login on [Gitter chat](https://gitter.im/minicomp/wax/).
+You can submit questions, issues, and feature requests on [GitHub](https://github.com/minicomp/wax/issues/) or join our "minicomp-wax" channel within the [Code4Lib Slack](https://docs.google.com/forms/d/e/1FAIpQLSeD77mBp0Y13mFePF8UmDwFrlbxNx3VttEjz_3dgglJeK-Zbg/viewform?c=0&w=1).
