@@ -40,14 +40,19 @@ Before starting with this guide, make sure this installation option makes the mo
   ```
 
 4. Lastly, install Ruby using RVM by running the following commands:
-  - `gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
-  - `\curl -sSL https://get.rvm.io | bash`
+  ```sh
+  gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+  ```
+  ```sh
+  \curl -sSL https://get.rvm.io | bash
+  ```
 
 5. Quit and reopen the terminal. Then run the following command to get a modern Ruby that comes with Bundler:
-
   ``` sh
   rvm install 2.7.2
   ```
+
+When you're done, try following along with the [Check for requirements tab](http://localhost:4000/wiki/wax/setting-up-your-system/#check-for-requirements) to make sure everything is ready to go.
 
 ## On Windows
 
@@ -61,8 +66,10 @@ Before starting with this guide, make sure this installation option makes the mo
 
 5. Download and install [libvips](https://github.com/libvips/libvips/releases/tag/v8.11) from GitHub.
 
-
+When you're done, try following along with the [Check for requirements tab](http://localhost:4000/wiki/wax/setting-up-your-system/#check-for-requirements) to make sure everything is ready to go.
 
 ## On Linux
 
-Coming Soon!
+This depends on your flavor. If you have trouble, try pinging the [Code4Lib #minicomp-wax channel](https://docs.google.com/forms/d/e/1FAIpQLSeD77mBp0Y13mFePF8UmDwFrlbxNx3VttEjz_3dgglJeK-Zbg/viewform?c=0&w=1).
+
+When you're done, try following along with the [Check for requirements tab](http://localhost:4000/wiki/wax/setting-up-your-system/#check-for-requirements) to make sure everything is ready to go.

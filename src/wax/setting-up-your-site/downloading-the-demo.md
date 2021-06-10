@@ -19,18 +19,14 @@ permalink: /wax/setting-up-your-site/downloading-the-demo/
 
 4. Unzip the file. This can be done through your operating system graphic user interface, or in the terminal:
     ```sh
-    unzip wax-master.zip
+    unzip wax-main.zip
     ```
     You can delete the zip file once you're done.
 
 5. Rename the directory and go inside the project folder:
     ```sh
-    mv wax-master my-project
-    cd wax-master
+    mv wax-main my-project
+    cd wax-main
     ```
 
 That's it!
-
-
-
-

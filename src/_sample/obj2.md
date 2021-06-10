@@ -12,5 +12,5 @@ thumbnail: "/img/derivatives/simple/obj2/thumbnail.jpg"
 full: "/img/derivatives/simple/obj2/full.jpg"
 manifest: "/img/derivatives/iiif/obj2/manifest.json"
 permalink: "/sample/obj2/"
-layout: 
+layout:
 ---

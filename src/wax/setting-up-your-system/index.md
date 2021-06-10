@@ -31,7 +31,10 @@ Ultimately, you'll need:
 - [x] [Libvips](https://libvips.github.io/libvips/)\*
 
 
-\*NOTE: If you're using a newer `wax_tasks`, we also recommend you install __Libvips__, which will replace __ImageMagick__ in our stack.
+#### \*NOTE: If you're using a newer `wax_tasks`, we also recommend you install __Libvips__, which will replace __ImageMagick__ in our stack.
+{: .no_toc }
+
+<br>
 
 You can check your versions by running [the commands below](#check-for-requirements) in your terminal/shell of choice.
 
