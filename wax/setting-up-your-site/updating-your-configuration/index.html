@@ -1,0 +1,445 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  
+    <title>Updating your configuration - Minicomp Wiki</title>
+
+    
+  
+
+  <link rel="shortcut icon" href="/wiki/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="/wiki/assets/css/just-the-docs-default.css">
+
+  
+
+  
+  <script type="text/javascript" src="/wiki/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Updating your configuration | Minicomp Wiki</title>
+<meta name="generator" content="Jekyll v4.1.0" />
+<meta property="og:title" content="Updating your configuration" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Updating your configuration" />
+<meta property="og:description" content="Updating your configuration" />
+<meta property="og:site_name" content="Minicomp Wiki" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Updating your configuration" />
+<script type="application/ld+json">
+{"description":"Updating your configuration","url":"/wiki/wax/setting-up-your-site/updating-your-configuration/","@type":"WebPage","headline":"Updating your configuration","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="svg-link" viewBox="0 0 24 24">
+      <title>Link</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+      </svg>
+    </symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+      <title>Search</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-menu" viewBox="0 0 24 24">
+      <title>Menu</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+      <title>Expand</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+      <title>Document</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+      </svg>
+    </symbol>
+  </svg>
+
+  <div class="side-bar">
+    <div class="site-header">
+      <a href="/wiki/" class="site-title lh-tight">
+  Minicomp Wiki
+
+</a>
+      <a href="#" id="menu-button" class="site-button">
+        <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+      </a>
+    </div>
+    <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      
+        <ul class="nav-list"><li class="nav-list-item"><a href="/wiki/" class="nav-list-link">Home</a></li><li class="nav-list-item"><a href="/wiki/contributors/" class="nav-list-link">Contributors</a></li><li class="nav-list-item"><a href="/wiki/ed/" class="nav-list-link">Ed.</a></li><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/wiki/wax/" class="nav-list-link">Wax</a><ul class="nav-list "><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/wiki/wax/setting-up-your-system/" class="nav-list-link">Setting up your system</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/wiki/wax/setting-up-your-system/install-manually/" class="nav-list-link">Manual Installation</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/wiki/wax/setting-up-your-system/with-docker/" class="nav-list-link">Docker Installation</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/wiki/wax/preparing-your-collection-data/" class="nav-list-link">Preparing your collection data</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/wiki/wax/preparing-your-collection-data/metadata/" class="nav-list-link">Metadata file</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/wiki/wax/preparing-your-collection-data/image-data/" class="nav-list-link">Directory of image files</a>
+                  </li></ul></li><li class="nav-list-item  active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/wiki/wax/setting-up-your-site/" class="nav-list-link">Setting up your site</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/wiki/wax/setting-up-your-site/copy-the-demo-template/" class="nav-list-link">Copy the demo template</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/wiki/wax/setting-up-your-site/adding-your-collection-data/" class="nav-list-link">Adding your collection data</a>
+                  </li><li class="nav-list-item  active">
+                    <a href="/wiki/wax/setting-up-your-site/updating-your-configuration/" class="nav-list-link active">Updating your configuration</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/wiki/wax/running-the-tasks/" class="nav-list-link">Running the tasks</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="/wiki/wax/running-the-tasks/derivatives/" class="nav-list-link">wax:derivatives</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/wiki/wax/running-the-tasks/pages/" class="nav-list-link">wax:pages</a>
+                  </li><li class="nav-list-item ">
+                    <a href="/wiki/wax/running-the-tasks/search/" class="nav-list-link">wax:search</a>
+                  </li></ul></li><li class="nav-list-item "><a href="/wiki/wax/using-theme-layouts/" class="nav-list-link">Using theme layouts</a></li><li class="nav-list-item "><a href="/wiki/wax/using-theme-components/" class="nav-list-link">Using theme components</a></li><li class="nav-list-item "><a href="/wiki/wax/serving/" class="nav-list-link">Serving your site</a></li><li class="nav-list-item "><a href="/wiki/wax/using-docker/" class="nav-list-link">Using Docker</a></li><li class="nav-list-item "><a href="/wiki/wax/advanced/" class="nav-list-link">Advanced</a></li><li class="nav-list-item "><a href="/wiki/wax/examples/" class="nav-list-link">Examples</a></li><li class="nav-list-item "><a href="/wiki/wax/quick-reference/" class="nav-list-link">Quick reference</a></li></ul></li></ul>
+
+      
+    </nav>
+    <footer class="site-footer">
+      This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+    </footer>
+  </div>
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+      
+      
+      
+        <nav aria-label="Auxiliary" class="aux-nav">
+          <ul class="aux-nav-list">
+            
+              <li class="aux-nav-list-item">
+                <a href="https://github.com/minicomp/" class="site-button"
+                  
+                >
+                  GitHub
+                </a>
+              </li>
+            
+              <li class="aux-nav-list-item">
+                <a href="https://minicomp.github.io/wax/" class="site-button"
+                  
+                >
+                  Wax Demo
+                </a>
+              </li>
+            
+              <li class="aux-nav-list-item">
+                <a href="https://minicomp.github.io/ed/" class="site-button"
+                  
+                >
+                  Ed. Demo
+                </a>
+              </li>
+            
+          </ul>
+        </nav>
+      
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list">
+              
+                <li class="breadcrumb-nav-list-item"><a href="/wiki/wax/">Wax</a></li>
+                <li class="breadcrumb-nav-list-item"><a href="/wiki/wax/setting-up-your-site/">Setting up your site</a></li>
+              
+              <li class="breadcrumb-nav-list-item"><span>Updating your configuration</span></li>
+            </ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+        
+          <h1 id="updating-your-configuration">
+        
+        
+          <a href="#updating-your-configuration" class="anchor-heading" aria-labelledby="updating-your-configuration"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Updating your configuration
+        
+        
+      </h1>
+    
+
+<p>Below you’ll find explanations for the wax demo site configuration and instructions for you to update it for your own exhibition site.</p>
+      <h2 id="main-settings">
+        
+        
+          <a href="#main-settings" class="anchor-heading" aria-labelledby="main-settings"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Main settings
+        
+        
+      </h2>
+    
+
+<p>The main settings are direct from Jekyll. You can learn more through their <a href="https://jekyllrb.com/docs/configuration/">configuration guides</a>.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="na">title</span><span class="pi">:</span>            <span class="s1">'</span><span class="s">Minicomp/Wax'</span>
+<span class="na">description</span><span class="pi">:</span>      <span class="s1">'</span><span class="s">Minimal</span><span class="nv"> </span><span class="s">Exhibitions</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">Jekyll'</span>
+<span class="na">url</span><span class="pi">:</span>              <span class="s1">'</span><span class="s">https://minicomp.github.io'</span>
+<span class="na">baseurl</span><span class="pi">:</span>          <span class="s1">'</span><span class="s">/wax'</span>
+<span class="na">copyright</span><span class="pi">:</span>        <span class="s1">'</span><span class="s">Example</span><span class="nv"> </span><span class="s">copyright</span><span class="nv"> </span><span class="s">org,</span><span class="nv"> </span><span class="s">2018'</span>
+
+</code></pre></div></div>
+      <h2 id="collection-settings">
+        
+        
+          <a href="#collection-settings" class="anchor-heading" aria-labelledby="collection-settings"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Collection settings
+        
+        
+      </h2>
+    
+
+<p>Wax leverages <a href="https://jekyllrb.com/docs/collections/">Jekyll collections</a> for much of its
+functionality, therefore some of the keys below are from
+Jekyll while others are Wax-specific.</p>
+
+<p>Below, two collections <code class="language-plaintext highlighter-rouge">exhibits</code> and <code class="language-plaintext highlighter-rouge">qatar</code> are configured. They control files in <code class="language-plaintext highlighter-rouge">_exhibits</code> and <code class="language-plaintext highlighter-rouge">_qatar</code> respectively. <code class="language-plaintext highlighter-rouge">exhibits</code> contains regular Markdown essays, so it only needs <code class="language-plaintext highlighter-rouge">output: true</code> in its config. But <code class="language-plaintext highlighter-rouge">qatar</code> is a Wax image collection and needs more info to be processed:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">collections</span><span class="pi">:</span>
+  <span class="na">exhibits</span><span class="pi">:</span>
+    <span class="na">output</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">qatar</span><span class="pi">:</span>
+    <span class="na">output</span><span class="pi">:</span> <span class="no">true</span>
+    <span class="na">layout</span><span class="pi">:</span> <span class="s1">'</span><span class="s">qatar_item'</span>
+    <span class="na">metadata</span><span class="pi">:</span>
+      <span class="na">source</span><span class="pi">:</span> <span class="s1">'</span><span class="s">qatar.csv'</span> <span class="c1"># path to the metadata file within `_data`</span>
+    <span class="na">images</span><span class="pi">:</span>
+      <span class="na">source</span><span class="pi">:</span> <span class="s1">'</span><span class="s">raw_images/qatar'</span> <span class="c1"># path to the directory of images within `_data`</span>
+
+</code></pre></div></div>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th style="text-align: left">variable</th>
+      <th style="text-align: left">type accepted</th>
+      <th style="text-align: left">description</th>
+      <th style="text-align: left">used by</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">collections</code></td>
+      <td style="text-align: left">hash</td>
+      <td style="text-align: left">the site collections</td>
+      <td style="text-align: left">wax and jekyll</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">output</code></td>
+      <td style="text-align: left">true/false</td>
+      <td style="text-align: left">whether or not to output the collection to HTML.</td>
+      <td style="text-align: left">jekyll</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">layout</code></td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left">which layout in <code class="language-plaintext highlighter-rouge">_layouts</code> the collection pages should use. you should create this file in <code class="language-plaintext highlighter-rouge">_layouts</code> and it should use the <code class="language-plaintext highlighter-rouge">wax/collection_item</code> layout. <strong>note:</strong> you do not add the <code class="language-plaintext highlighter-rouge">.html</code> extension at the end; this is a Jekyll convention.</td>
+      <td style="text-align: left">wax and jekyll</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">metadata:source</code></td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left">path to the collection’s metadata file within the <code class="language-plaintext highlighter-rouge">_data</code> directory</td>
+      <td style="text-align: left">wax</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">images:source</code></td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left">path to the collection’s directory of images within the <code class="language-plaintext highlighter-rouge">_data</code> directory</td>
+      <td style="text-align: left">wax</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p>There are more configuration variables for collections within <code class="language-plaintext highlighter-rouge">metadata</code> and <code class="language-plaintext highlighter-rouge">images</code> for <a href="/wiki/wax/advanced/">advanced use cases</a>.</p>
+      <h1 id="search-settings">
+        
+        
+          <a href="#search-settings" class="anchor-heading" aria-labelledby="search-settings"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Search settings
+        
+        
+      </h1>
+    
+
+<p>The <code class="language-plaintext highlighter-rouge">search</code> variable can create multiple indexes, though just one (<code class="language-plaintext highlighter-rouge">main</code>) is recommended. For Wax to use search it needs to a search index, which will be saved as a JSON file.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">search</span><span class="pi">:</span>
+  <span class="na">main</span><span class="pi">:</span>
+    <span class="na">index</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/search/index.json'</span> <span class="c1"># file the index will get written to</span>
+    <span class="na">collections</span><span class="pi">:</span>
+      <span class="na">qatar</span><span class="pi">:</span>
+        <span class="na">content</span><span class="pi">:</span> <span class="no">false</span> <span class="c1"># whether or not to index page content</span>
+        <span class="na">fields</span><span class="pi">:</span> <span class="c1"># the metadata fields to index</span>
+          <span class="pi">-</span> <span class="s">artist</span>
+          <span class="pi">-</span> <span class="s">location</span>
+          <span class="pi">-</span> <span class="s">label</span>
+          <span class="pi">-</span> <span class="s">_date</span>
+          <span class="pi">-</span> <span class="s">object_type</span>
+          <span class="pi">-</span> <span class="s">current_location</span>
+</code></pre></div></div>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th style="text-align: left">variable</th>
+      <th style="text-align: left">type accepted</th>
+      <th style="text-align: left">description</th>
+      <th style="text-align: left">used by</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">index</code></td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left">the path (within the root of the site) to write the index to</td>
+      <td style="text-align: left">wax</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">collections</code></td>
+      <td style="text-align: left">hash</td>
+      <td style="text-align: left">which collections (as defined in <code class="language-plaintext highlighter-rouge">collections</code> above) will be indexed</td>
+      <td style="text-align: left">wax</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">content</code></td>
+      <td style="text-align: left">true/false</td>
+      <td style="text-align: left">within a collection: whether or not to index the page content in addition to the metadata in the front matter</td>
+      <td style="text-align: left">wax</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">fields</code></td>
+      <td style="text-align: left">list</td>
+      <td style="text-align: left">within a collection: the metadata fields to index</td>
+      <td style="text-align: left">wax</td>
+    </tr>
+  </tbody>
+</table></div>
+      <h2 id="menu-settings">
+        
+        
+          <a href="#menu-settings" class="anchor-heading" aria-labelledby="menu-settings"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Menu settings
+        
+        
+      </h2>
+    
+
+<p>The <code class="language-plaintext highlighter-rouge">menu</code> defined in <code class="language-plaintext highlighter-rouge">_config.yml</code> is used by the theme’s header and can accept nested / dropdown menus.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">menu</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s1">'</span><span class="s">About'</span>
+    <span class="na">sub</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Wax'</span>
+        <span class="na">link</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/about/'</span>
+      <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Documentation'</span>
+        <span class="na">link</span><span class="pi">:</span> <span class="s1">'</span><span class="s">https://minicomp.github.io/wiki/#/wax/'</span>
+      <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Credits'</span>
+        <span class="na">link</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/credits/'</span>
+  <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Exhibits'</span>
+    <span class="na">sub</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Local</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">Remote</span><span class="nv"> </span><span class="s">IIIF</span><span class="nv"> </span><span class="s">Manifests'</span>
+        <span class="na">link</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/exhibits/a/'</span>
+      <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Inline</span><span class="nv"> </span><span class="s">Parallax</span><span class="nv"> </span><span class="s">Image'</span>
+        <span class="na">link</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/exhibits/b/'</span>
+      <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Inline</span><span class="nv"> </span><span class="s">Image</span><span class="nv"> </span><span class="s">References'</span>
+        <span class="na">link</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/exhibits/c/'</span>
+  <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Browse'</span>
+    <span class="na">link</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/collection/'</span>
+  <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Search'</span>
+    <span class="na">link</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/search/'</span>
+  <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Reuse'</span>
+    <span class="na">link</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/reuse/'</span>
+</code></pre></div></div>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th style="text-align: left">variable</th>
+      <th style="text-align: left">type accepted</th>
+      <th style="text-align: left">description</th>
+      <th style="text-align: left">used by</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">menu</code></td>
+      <td style="text-align: left">list</td>
+      <td style="text-align: left">list of menu items</td>
+      <td style="text-align: left">wax</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">label</code></td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left">the human-readable label for the link or dropdown</td>
+      <td style="text-align: left">wax</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">link</code></td>
+      <td style="text-align: left">string</td>
+      <td style="text-align: left">the relative (internal) or absolute (external) link</td>
+      <td style="text-align: left">wax</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">sub</code></td>
+      <td style="text-align: left">list</td>
+      <td style="text-align: left">a list of sub items for a dropdown</td>
+      <td style="text-align: left">wax</td>
+    </tr>
+  </tbody>
+</table></div>
+      <h2 id="footer-settings">
+        
+        
+          <a href="#footer-settings" class="anchor-heading" aria-labelledby="footer-settings"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Footer settings
+        
+        
+      </h2>
+    
+
+<p>The theme’s footer uses the site’s title, description, and copyright by default and optionally takes a list of navigation links and logos from the variables below.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">footer</span><span class="pi">:</span>
+  <span class="na">links</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s1">'</span><span class="s">GitHub'</span>
+      <span class="na">link</span><span class="pi">:</span> <span class="s1">'</span><span class="s">https://github.com/minicomp/wax'</span>
+    <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Credits'</span>
+      <span class="na">link</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/credits'</span>
+    <span class="pi">-</span> <span class="na">label</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Contact'</span>
+      <span class="na">link</span><span class="pi">:</span> <span class="s1">'</span><span class="s">https://gitter.im/minicomp/wax/'</span>
+  <span class="na">logos</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">img</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/assets/logo.png'</span>
+    <span class="pi">-</span> <span class="na">img</span><span class="pi">:</span> <span class="s1">'</span><span class="s">https://example.com/logo.png'</span>
+      <span class="na">link</span><span class="pi">:</span> <span class="s1">'</span><span class="s">https://example.com'</span>
+</code></pre></div></div>
+
+        
+
+        
+
+        
+        
+
+      </div>
+    </div>
+
+    
+  </div>
+</body>
+</html>
+
