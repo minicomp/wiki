@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Examples
-nav_order: 10
+nav_order: 11
 parent: Wax
 permalink: /wax/examples/
 ---

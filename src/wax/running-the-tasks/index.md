@@ -11,6 +11,11 @@ permalink: /wax/running-the-tasks/
 
 __The order in which you run the following rake tasks is important!__ For example, the  `derivatives` tasks give information to the metadata file, so it needs to be run before the `pages` task generates pages from the metadata. And the `search` task indexes the collection markdown pages, so those pages need to exist before it is run.
 
+## A note on using Docker!
+
+For all of the steps here on "running the tasks," you'll need to run the commands from within your Docker container. You can find a cheatsheet [here](../using-docker/).
+
+
 ### Step 1: Make sure you have the tasks available.
 
 You can check by running `bundle exec rake --tasks`. You should see a list of tasks printed in your shell window.

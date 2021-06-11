@@ -4,7 +4,7 @@ title: Copy the demo template
 nav_order: 1
 parent: Setting up your site
 grand_parent: Wax
-permalink: /wax/setting-up-your-site/downloading-the-demo/
+permalink: /wax/setting-up-your-site/copy-the-demo-template/
 ---
 
 # {{ page.title }}
@@ -37,5 +37,4 @@ permalink: /wax/setting-up-your-site/downloading-the-demo/
   ```sh
   bundle install
   ```
-
-That's it!
+#### \***Note:** If you're using Docker, you do not need to run step \#7. It is run for you whenever you run or enter the container.
