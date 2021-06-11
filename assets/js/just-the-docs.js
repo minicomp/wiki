@@ -59,7 +59,7 @@ jtd.getTheme = function() {
 
 jtd.setTheme = function(theme) {
   var cssFile = document.querySelector('[rel="stylesheet"]');
-  cssFile.setAttribute('href', '/wiki/assets/css/just-the-docs-' + theme + '.css');
+  cssFile.setAttribute('href', 'https://minicomp.github.io/wiki/assets/css/just-the-docs-' + theme + '.css');
 }
 
 // Document ready
