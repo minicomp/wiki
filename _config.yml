@@ -22,6 +22,7 @@ collections:
   sample:
     output: false
     layout: null
+    sort_by: test
     metadata:
       source: sample.csv
     images:

@@ -46,23 +46,23 @@ Each record (i.e., spreadsheet row or JSON object) needs two fields:
 
 ### pid
 
-  - This is the ID for your collection item. test{.label label-green}
+  - This is the Persistent ID for your collection item.
   - It cannot have whitespace!
-  - It must be unique–no two records can have the same `pid`!
+  - It must be unique: no two records can have the same `pid`!
   - It is highly encouraged to use **the simplest pid values possible** and follow "snake case", where letters are lowercase and special characters are removed or replaced by underscores.
   - E.g. `Object Ref #1` will break. You could simplify it to `obj1` instead (like in the example spreadsheet above).
 
 ### label
   - This is where you succinctly describe the item.
   - It will show in results and at the top of the item page, e.g.: [Portrait of Hasan 'Ali Mirza Shuja al-Saltana](https://minicomp.github.io/wax/qatar/obj10/)
-  - Does not have to be unique.
+  - It does not have to be unique.
 
 #### \***TIP:** keep your `pid` values as simple and arbitrary as possible and use `label` to keep track of what's what instead!
 {: .no_toc }
 
 ## Fields to avoid
 
-__Some fields are needed for Jekyll and Wax, and should not be used in your metadata file__. You should not manually create these fields (unless you know what you're doing!), and should avoid these keys in your metadata:
+__Some fields are needed for the underlying software of Jekyll and Wax, and should not be used in your metadata file__. You should not manually create these fields (unless you know what you're doing!), and should avoid these keys in your metadata:
 
 - `id`
 - `date` (use `_date` instead)

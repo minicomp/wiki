@@ -10,7 +10,7 @@ permalink: /wax/setting-up-your-site/adding-your-collection-data/
 # Adding your collection data
 
 
-Before adding your collection data, take note of the project's structure.
+Before adding your collection data, take note of the project's structure, including:
 
 | directory   | purpose   |
 |:------------|:----------|
@@ -25,12 +25,19 @@ More information on Jekyll directory and file conventions can be found in the [J
 
 After exploring the site and its files, delete the following demo files and directories:
 
-- `qatar` directory within `_data/raw_images`
-- `qatar.csv` file within `_data`
 - `_qatar` directory
 - `img/derivatives` directory
 
-## Swap in your data
+You can do this manually or you can run the command
+```sh
+bundle exec rake wax:clobber qatar
+```
+
+Also delete any `qatar` files and folders within `_data`.
+
+## Swap in your collection data
 
 - Drag your own directory of images (named after your collection) into `_data/raw_images`
 - Drag your own metadata records (i.e. your .csv, .json, or .yml file) into `_data`
+
+#### \***TIP!** It's a good idea to make a copy of your metadata file since Wax will alter and add fields to your main copy. (e.g., `qatar.csv` and `qatar-original.csv`)

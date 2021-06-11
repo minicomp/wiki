@@ -10,7 +10,7 @@ permalink: /wax/setting-up-your-system/
 # {{ page.title }}
 {: .no_toc }
 
-Since Wax produces static sites, all of the software runs on **your own computer**. The process spits out an HTML website that can be hosted easily without complex software on a server. This workflow is very freeing in terms of maintenance, but does mean there's a higher barrier to getting started initially.
+Since Wax produces static sites, all of the software runs on **your own computer**. This process spits out an HTML website that can be hosted easily without complex software on a server. This workflow is very freeing in terms of maintenance, but does mean there's a higher barrier to getting started initially.
 
 We have a few installation guides and options available to help you through this process.
 
@@ -38,7 +38,7 @@ Ultimately, you'll need:
 
 You can check your versions by running [the commands below](#check-for-requirements) in your terminal/shell of choice.
 
-If you don't have current versions for these packages or are starting from scratch, see our [Installation Guide](../installation-guides/).
+If you don't have current versions for these packages or are starting from scratch, see our [Installation Guide](#guides).
 
 
 ### Check for requirements

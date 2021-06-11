@@ -22,7 +22,7 @@ When you run the line above for your collection, the task will:
 1. Look for the directory of source images you specified in your `_config.yml` file under `collections` > `YOUR_COLLECTION_NAME` > `images` > `source` (See: [Updating your configuration]({{ '/wax/setting-up-your-site/updating-your-configuration/' | absolute_url }}))
 
 
-2. Generate two copies of each image (full size and thumbnail, with 1140px and 250px widths, respectively) into the directory `img/derivatives/YOUR_COLLECTION_NAME`
+2. Generate two copies of each image (full size and thumbnail, with 1140px and 250px widths, respectively) into the directory `img/derivatives/simple`
 
 
 3. Automatically add two fields (`full` and `thumbnail`) to each of your metadata records with the relative paths to the image derivatives.
@@ -41,7 +41,7 @@ When you run the line above for your collection, the task will:
 1. Look for the directory of source images you specified in your `_config.yml` file under `collections` > `YOUR_COLLECTION_NAME` > `images` > `source` (See: [Updating your configuration]({{ '/wax/setting-up-your-site/updating-your-configuration/' | absolute_url }}))
 
 
-2. Generate many IIIF derivatives, image tiles, and JSON representations of the collection items into the directory `img/derivatives/YOUR_COLLECTION_NAME`.
+2. Generate many IIIF derivatives, image tiles, and JSON representations of the collection items into the directory `img/derivatives/iiif`.
 
 
 3. Automatically add three fields (`full`, `thumbnail`, and `manifest`) to each of your metadata records with the relative paths to the full and thumbnail size image derivatives and the IIIF manifest.
