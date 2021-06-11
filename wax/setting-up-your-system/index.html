@@ -90,9 +90,9 @@
     <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
       
         <ul class="nav-list"><li class="nav-list-item"><a href="/wiki/" class="nav-list-link">Home</a></li><li class="nav-list-item"><a href="/wiki/contributors/" class="nav-list-link">Contributors</a></li><li class="nav-list-item"><a href="/wiki/ed/" class="nav-list-link">Ed.</a></li><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/wiki/wax/" class="nav-list-link">Wax</a><ul class="nav-list "><li class="nav-list-item  active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/wiki/wax/setting-up-your-system/" class="nav-list-link active">Setting up your system</a><ul class="nav-list"><li class="nav-list-item ">
-                    <a href="/wiki/wax/setting-up-your-system/install-manually/" class="nav-list-link">Manual Installation</a>
+                    <a href="/wiki/wax/setting-up-your-system/install-manually/" class="nav-list-link">Manual Installation Guide</a>
                   </li><li class="nav-list-item ">
-                    <a href="/wiki/wax/setting-up-your-system/with-docker/" class="nav-list-link">Docker Installation</a>
+                    <a href="/wiki/wax/setting-up-your-system/with-docker/" class="nav-list-link">Docker Installation Guide</a>
                   </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/wiki/wax/preparing-your-collection-data/" class="nav-list-link">Preparing your collection data</a><ul class="nav-list"><li class="nav-list-item ">
                     <a href="/wiki/wax/preparing-your-collection-data/metadata/" class="nav-list-link">Metadata file</a>
                   </li><li class="nav-list-item ">
@@ -189,13 +189,15 @@
     
 
 <ol id="markdown-toc">
-  <li><a href="#requirements" id="markdown-toc-requirements">Requirements</a>    <ol>
-      <li><a href="#check-for-requirements" id="markdown-toc-check-for-requirements">Check for requirements</a></li>
-    </ol>
-  </li>
+  <li><a href="#requirements" id="markdown-toc-requirements">Requirements</a></li>
   <li><a href="#guides" id="markdown-toc-guides">Guides</a>    <ol>
       <li><a href="#option-1-install-manually" id="markdown-toc-option-1-install-manually">Option 1: Install manually</a></li>
       <li><a href="#option-2-install-with-docker" id="markdown-toc-option-2-install-with-docker">Option 2: Install with Docker</a></li>
+    </ol>
+  </li>
+  <li><a href="#check-for-requirements" id="markdown-toc-check-for-requirements">Check for requirements</a>    <ol>
+      <li><a href="#manual-install-checks" id="markdown-toc-manual-install-checks">Manual install checks</a></li>
+      <li><a href="#docker-install-checks" id="markdown-toc-docker-install-checks">Docker install checks</a></li>
     </ol>
   </li>
 </ol>
@@ -219,57 +221,16 @@
       <h4 class="no_toc" id="note-if-youre-using-a-newer-wax_tasks-we-also-recommend-you-install-libvips-which-will-replace-imagemagick-in-our-stack">
         
         
-          <a href="#note-if-youre-using-a-newer-wax_tasks-we-also-recommend-you-install-libvips-which-will-replace-imagemagick-in-our-stack" class="anchor-heading" aria-labelledby="note-if-youre-using-a-newer-wax_tasks-we-also-recommend-you-install-libvips-which-will-replace-imagemagick-in-our-stack"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> *NOTE: If you’re using a newer <code class="language-plaintext highlighter-rouge">wax_tasks</code>, we also recommend you install <strong>Libvips</strong>, which will replace <strong>ImageMagick</strong> in our stack.
+          <a href="#note-if-youre-using-a-newer-wax_tasks-we-also-recommend-you-install-libvips-which-will-replace-imagemagick-in-our-stack" class="anchor-heading" aria-labelledby="note-if-youre-using-a-newer-wax_tasks-we-also-recommend-you-install-libvips-which-will-replace-imagemagick-in-our-stack"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> *<strong>NOTE:</strong> If you’re using a newer <code class="language-plaintext highlighter-rouge">wax_tasks</code>, we also recommend you install <strong>Libvips</strong>, which will replace <strong>ImageMagick</strong> in our stack.
         
         
       </h4>
     
 
-<p><br /></p>
+<p><br />
+You can check your versions by running <a href="#check-for-requirements">the commands below</a> in your terminal/shell of choice.</p>
 
-<p>You can check your versions by running <a href="#check-for-requirements">the commands below</a> in your terminal/shell of choice.</p>
-
-<p>If you don’t have current versions for these packages or are starting from scratch, see our <a href="#guides">Installation Guide</a>.</p>
-      <h3 id="check-for-requirements">
-        
-        
-          <a href="#check-for-requirements" class="anchor-heading" aria-labelledby="check-for-requirements"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Check for requirements
-        
-        
-      </h3>
-    
-
-<p>Check for Ruby:</p>
-
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby <span class="nt">-v</span>
-</code></pre></div></div>
-
-<p>Check for Bundler:</p>
-
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundler <span class="nt">-v</span>
-</code></pre></div></div>
-
-<p>Check for Git:</p>
-
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git <span class="nt">--version</span>
-</code></pre></div></div>
-
-<p>To process images, you will also need to have <strong>ImageMagick</strong> and <strong>Ghostscript</strong> installed and functional. (<strong>Vips</strong> for later versions.)</p>
-
-<p>Check ImageMagick:</p>
-
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>convert <span class="nt">-version</span>
-</code></pre></div></div>
-
-<p>Check Ghostscript:</p>
-
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gs <span class="nt">-version</span>
-</code></pre></div></div>
-
-<p>Check Libvips:</p>
-
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vips <span class="nt">-version</span>
-</code></pre></div></div>
+<p>If you don’t have current versions for these packages or are starting from scratch, see our <a href="#guides">Installation Guides</a>.</p>
       <h2 id="guides">
         
         
@@ -312,6 +273,76 @@
   <li>When you’re not working on your Wax site, you can destroy the container (and all the software with it!), freeing up space on your computer.</li>
   <li>The downsides are that you’ll need to start a container whenever you want to work with Wax, and the software will run a little slower than if you were running things on your host machine.</li>
 </ul>
+      <h2 id="check-for-requirements">
+        
+        
+          <a href="#check-for-requirements" class="anchor-heading" aria-labelledby="check-for-requirements"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Check for requirements
+        
+        
+      </h2>
+    
+      <h3 id="manual-install-checks">
+        
+        
+          <a href="#manual-install-checks" class="anchor-heading" aria-labelledby="manual-install-checks"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Manual install checks
+        
+        
+      </h3>
+    
+
+<p>If you installed the software manually, you can run the following commands directly in your Terminal/shell app.</p>
+
+<p>Check for Ruby:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby <span class="nt">-v</span>
+</code></pre></div></div>
+
+<p>Check for Bundler:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundler <span class="nt">-v</span>
+</code></pre></div></div>
+
+<p>Check for Git:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git <span class="nt">--version</span>
+</code></pre></div></div>
+
+<p>To process images, you will also need to have <strong>ImageMagick</strong> and <strong>Ghostscript</strong> installed and functional. (<strong>Vips</strong> for later versions.)</p>
+
+<p>Check ImageMagick:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>convert <span class="nt">-version</span>
+</code></pre></div></div>
+
+<p>Check Ghostscript:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gs <span class="nt">-version</span>
+</code></pre></div></div>
+
+<p>Check Libvips:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vips <span class="nt">-version</span>
+</code></pre></div></div>
+      <h3 id="docker-install-checks">
+        
+        
+          <a href="#docker-install-checks" class="anchor-heading" aria-labelledby="docker-install-checks"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Docker install checks
+        
+        
+      </h3>
+    
+
+<p>If you installed with Docker, all of the required software will be <em>inside</em> your Docker container <strong>except for Git</strong>, which is installed on your directly on your computer.</p>
+
+<p>At this stage, you’ll only need to check for Docker and Git by running the following checks in your Terminal/shell app.</p>
+
+<p>Check Docker:</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker <span class="nt">-v</span>
+</code></pre></div></div>
+
+<p>Check Git:</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git <span class="nt">-v</span>
+</code></pre></div></div>
 
         
 
@@ -320,11 +351,11 @@
           <h2 class="text-delta">Table of contents</h2>
           <ul>
               <li>
-                <a href="/wiki/wax/setting-up-your-system/install-manually/">Manual Installation</a>
+                <a href="/wiki/wax/setting-up-your-system/install-manually/">Manual Installation Guide</a>
               </li>
             
               <li>
-                <a href="/wiki/wax/setting-up-your-system/with-docker/">Docker Installation</a>
+                <a href="/wiki/wax/setting-up-your-system/with-docker/">Docker Installation Guide</a>
               </li>
             
           </ul>

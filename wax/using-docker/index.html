@@ -90,9 +90,9 @@
     <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
       
         <ul class="nav-list"><li class="nav-list-item"><a href="/wiki/" class="nav-list-link">Home</a></li><li class="nav-list-item"><a href="/wiki/contributors/" class="nav-list-link">Contributors</a></li><li class="nav-list-item"><a href="/wiki/ed/" class="nav-list-link">Ed.</a></li><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/wiki/wax/" class="nav-list-link">Wax</a><ul class="nav-list "><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/wiki/wax/setting-up-your-system/" class="nav-list-link">Setting up your system</a><ul class="nav-list"><li class="nav-list-item ">
-                    <a href="/wiki/wax/setting-up-your-system/install-manually/" class="nav-list-link">Manual Installation</a>
+                    <a href="/wiki/wax/setting-up-your-system/install-manually/" class="nav-list-link">Manual Installation Guide</a>
                   </li><li class="nav-list-item ">
-                    <a href="/wiki/wax/setting-up-your-system/with-docker/" class="nav-list-link">Docker Installation</a>
+                    <a href="/wiki/wax/setting-up-your-system/with-docker/" class="nav-list-link">Docker Installation Guide</a>
                   </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/wiki/wax/preparing-your-collection-data/" class="nav-list-link">Preparing your collection data</a><ul class="nav-list"><li class="nav-list-item ">
                     <a href="/wiki/wax/preparing-your-collection-data/metadata/" class="nav-list-link">Metadata file</a>
                   </li><li class="nav-list-item ">
@@ -178,25 +178,40 @@
 
 <p>Using Docker to install and run the software behind Wax can be a convenient strategy. To do so, you’ll need to first follow the steps on our <a href="../setting-up-your-system/with-docker/">Docker installation guide</a>.</p>
 
-<p>Next, after completing the steps on <a href="../setting-up-your-site/copy-the-demo-template/">Copying the Demo template</a>, instead of running <code class="language-plaintext highlighter-rouge">bundle install</code> you should:</p>
+<p>Next, complete the steps 1-6 on <a href="../setting-up-your-site/copy-the-demo-template/">Copying the Demo template</a>. Instead of running <code class="language-plaintext highlighter-rouge">bundle install</code> you should:</p>
 
 <ol>
-  <li>Build the minicomp/wax base Docker image:</li>
+  <li>Make sure you are inside your cloned repository (from <a href="../setting-up-your-site/copy-the-demo-template/">Copying the Demo template</a>). You can check where you are by running:
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nb">pwd</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Build the minicomp/wax base Docker image:
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  docker build <span class="nt">-t</span> minicomp/wax <span class="nb">.</span>
+</code></pre></div>    </div>
+  </li>
 </ol>
 
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker build <span class="nt">-t</span> minicomp/wax <span class="nb">.</span>
-</code></pre></div></div>
+<blockquote>
+      <h4 id="note-make-sure-you-copy-the-whole-command-above-including-the--at-the-end">
+        
+        
+          <a href="#note-make-sure-you-copy-the-whole-command-above-including-the--at-the-end" class="anchor-heading" aria-labelledby="note-make-sure-you-copy-the-whole-command-above-including-the--at-the-end"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> *<strong>Note:</strong> Make sure you copy the whole command above, including the “.” at the end!
+        
+        
+      </h4>
+    
+</blockquote>
 
 <ol>
-  <li>Create and access an interactive bash container from the image by running:</li>
+  <li>Create and access an interactive bash container from the image by running:
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  docker run <span class="nt">-it</span> <span class="nt">--rm</span> <span class="nt">-v</span> <span class="s2">"</span><span class="nv">$PWD</span><span class="s2">"</span>:/wax <span class="nt">--name</span> wax <span class="nt">-p</span> 4000:4000 minicomp/wax bash
+</code></pre></div>    </div>
+  </li>
 </ol>
 
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run <span class="nt">-it</span> <span class="nt">--rm</span> <span class="nt">-v</span> <span class="s2">"</span><span class="nv">$PWD</span><span class="s2">"</span>:/wax <span class="nt">--name</span> wax <span class="nt">-p</span> 4000:4000 minicomp/wax bash
-</code></pre></div></div>
+<p><strong>Whenever you’re running Wax’s tasks to process collection data or running Jekyll to serve your site, you’ll have to do so from within this container.</strong></p>
 
-<p>Whenever you’re running Wax’s tasks to process collection data or running Jekyll to serve your site, you’ll have to do so from within this container.</p>
-
-<p>You can exit any time with <code class="language-plaintext highlighter-rouge">Control+C</code>, which will destroy the container but not the base image. Create and access a new one as needed by running Step 2 above.</p>
+<p>You can exit any time by typing the command <code class="language-plaintext highlighter-rouge">exit</code>, which will destroy the container but not the base image. Create and access a new one as needed by running the command starting with <code class="language-plaintext highlighter-rouge">docker run ...</code> above.</p>
       <h4 id="note-make-sure-you-use-git-commands-outside-the-container-on-your-host-computer">
         
         
