@@ -52,7 +52,7 @@ Before starting with this guide, make sure this installation option makes the mo
   rvm install 2.7.2
   ```
 
-When you're done, try following along with the [Check for requirements tab](http://localhost:4000/wiki/wax/setting-up-your-system/#check-for-requirements) to make sure everything is ready to go.
+When you're done, try following along with the [Check for requirements tab](../#check-for-requirements) to make sure everything is ready to go.
 
 ## On Windows
 
@@ -66,10 +66,10 @@ When you're done, try following along with the [Check for requirements tab](http
 
 5. Download and install [libvips](https://github.com/libvips/libvips/releases/tag/v8.11) from GitHub.
 
-When you're done, try following along with the [Check for requirements tab](http://localhost:4000/wiki/wax/setting-up-your-system/#check-for-requirements) to make sure everything is ready to go.
+When you're done, try following along with the [Check for requirements tab](../#check-for-requirements) to make sure everything is ready to go.
 
 ## On Linux
 
 This depends on your flavor. If you have trouble, try pinging the [Code4Lib #minicomp-wax channel](https://docs.google.com/forms/d/e/1FAIpQLSeD77mBp0Y13mFePF8UmDwFrlbxNx3VttEjz_3dgglJeK-Zbg/viewform?c=0&w=1).
 
-When you're done, try following along with the [Check for requirements tab](http://localhost:4000/wiki/wax/setting-up-your-system/#check-for-requirements) to make sure everything is ready to go.
+When you're done, try following along with the [Check for requirements tab](../#check-for-requirements) to make sure everything is ready to go.

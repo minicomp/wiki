@@ -24,7 +24,7 @@ Before starting with this guide, make sure this installation option makes the mo
 
 2. Install Git using the [GitHub Desktop App](https://desktop.github.com/)
 
-When you're done, try following along with the [Check for requirements tab](http://localhost:4000/wiki/wax/setting-up-your-system/#check-for-requirements) to make sure everything is ready to go.
+When you're done, try following along with the [Check for requirements tab](../#check-for-requirements) to make sure everything is ready to go.
 
 
 ## On Windows
@@ -33,7 +33,7 @@ When you're done, try following along with the [Check for requirements tab](http
 
 2. Install Git using the [GitForWindows toolset](https://gitforwindows.org/)
 
-When you're done, try following along with the [Check for requirements tab](http://localhost:4000/wiki/wax/setting-up-your-system/#check-for-requirements) to make sure everything is ready to go.
+When you're done, try following along with the [Check for requirements tab](../#check-for-requirements) to make sure everything is ready to go.
 
 #### \***Note:** You'll use the GitBash shell installed along with GitForWindows to check for requirements and run the Wax software.
 {: .no_toc }
@@ -44,4 +44,4 @@ When you're done, try following along with the [Check for requirements tab](http
 
 2. Install Git by following the instructions on the [Git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-When you're done, try following along with the [Check for requirements tab](http://localhost:4000/wiki/wax/setting-up-your-system/#check-for-requirements) to make sure everything is ready to go.
+When you're done, try following along with the [Check for requirements tab](../#check-for-requirements) to make sure everything is ready to go.
