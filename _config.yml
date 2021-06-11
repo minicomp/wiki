@@ -1,10 +1,14 @@
-title:          'Minicomp Wiki'
-baseurl:        '/wiki'
+title:            'Minicomp Wiki'
+baseurl:          '/wiki'
 
-exclude:        [README.md, LICENSE, Gemfile*, Rakefile, vendor]
-permalink:      pretty
-search_enabled: false
-safe:           true
+theme:            just-the-docs
+exclude:          [README.md, LICENSE, Gemfile*, Rakefile, vendor]
+permalink:        pretty
+search_enabled:   false
+heading_anchors:  true
+source:           src
+github:           [metadata]
+
 
 aux_links:
   'GitHub':
@@ -18,6 +22,7 @@ collections:
   sample:
     output: false
     layout: null
+    sort_by: test
     metadata:
       source: sample.csv
     images:
