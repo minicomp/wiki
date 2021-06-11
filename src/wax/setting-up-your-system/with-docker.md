@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Docker Installation
+title: Docker Installation Guide
 nav_order: 2
 parent: Setting up your system
 grand_parent: Wax
@@ -24,11 +24,7 @@ Before starting with this guide, make sure this installation option makes the mo
 
 2. Install Git using the [GitHub Desktop App](https://desktop.github.com/)
 
-When you're done, open your Terminal app and check that Git is installed by running
-
-```sh
-git -v
-```
+When you're done, try following along with the [Check for requirements tab](../#docker-install-checks) to make sure everything is ready to go.
 
 
 ## On Windows
@@ -37,11 +33,7 @@ git -v
 
 2. Install Git using the [GitForWindows toolset](https://gitforwindows.org/)
 
-When you're done, open your new GitBash shell and check that Git is installed by running
-
-```sh
-git -v
-```
+When you're done, try following along with the [Check for requirements tab](../#docker-install-checks) to make sure everything is ready to go.
 
 ## On Linux
 
@@ -49,10 +41,4 @@ git -v
 
 2. Install Git by following the instructions on the [Git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-When you're done, try following along with the [Check for requirements tab](../#check-for-requirements) to make sure everything is ready to go.
-
-When you're done, open your Terminal shell and check that Git is installed by running 
-
-```sh
-git -v
-```
+When you're done, try following along with the [Check for requirements tab](../#docker-install-checks) to make sure everything is ready to go.

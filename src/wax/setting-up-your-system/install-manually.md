@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Manual Installation
+title: Manual Installation Guide
 nav_order: 1
 parent: Setting up your system
 grand_parent: Wax

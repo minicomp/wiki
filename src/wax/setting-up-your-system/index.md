@@ -31,17 +31,39 @@ Ultimately, you'll need:
 - [x] [Libvips](https://libvips.github.io/libvips/)\*
 
 
-#### \*NOTE: If you're using a newer `wax_tasks`, we also recommend you install __Libvips__, which will replace __ImageMagick__ in our stack.
+#### \***NOTE:** If you're using a newer `wax_tasks`, we also recommend you install __Libvips__, which will replace __ImageMagick__ in our stack.
 {: .no_toc }
 
 <br>
-
 You can check your versions by running [the commands below](#check-for-requirements) in your terminal/shell of choice.
 
-If you don't have current versions for these packages or are starting from scratch, see our [Installation Guide](#guides).
+If you don't have current versions for these packages or are starting from scratch, see our [Installation Guides](#guides).
 
+## Guides
 
-### Check for requirements
+You have two main options for installing the software needed for Wax: __manually on your machine__ or in a __Docker container__. Both have options have pros and cons.
+
+Both \*should\* work across Mac, Windows, and Linux machines. You should choose the option that makes the most sense for you and your use case.
+
+### [Option 1: Install manually](install-manually/)
+
+If you go this route:
+- You'll install things one-by-one directly on your computer.
+- The process will be more tedious, but you'll finish with a robust set of development tools that will help you with many other projects.
+- Your software will run faster, but it will take up space on your computer.
+
+### [Option 2: Install with Docker](with-docker/)
+
+If you go this route:
+- You'll install packages quickly within [Docker](https://www.docker.com/) "containers." This means the container will have just about everything you need in fewer steps.
+- When you're not working on your Wax site, you can destroy the container (and all the software with it!), freeing up space on your computer.
+- The downsides are that you'll need to start a container whenever you want to work with Wax, and the software will run a little slower than if you were running things on your host machine.
+
+## Check for requirements
+
+### Manual install checks
+
+If you installed the software manually, you can run the following commands directly in your Terminal/shell app.
 
 Check for Ruby:
 
@@ -81,22 +103,18 @@ Check Libvips:
 vips -version
 ```
 
-## Guides
+### Docker install checks
 
-You have two main options for installing the software needed for Wax: __manually on your machine__ or in a __Docker container__. Both have options have pros and cons.
+If you installed with Docker, all of the required software will be *inside* your Docker container **except for Git**, which is installed on your directly on your computer.
 
-Both \*should\* work across Mac, Windows, and Linux machines. You should choose the option that makes the most sense for you and your use case.
+At this stage, you'll only need to check for Docker and Git by running the following checks in your Terminal/shell app.
 
-### [Option 1: Install manually](install-manually/)
+Check Docker:
+```sh
+docker -v
+```
 
-If you go this route:
-- You'll install things one-by-one directly on your computer.
-- The process will be more tedious, but you'll finish with a robust set of development tools that will help you with many other projects.
-- Your software will run faster, but it will take up space on your computer.
-
-### [Option 2: Install with Docker](with-docker/)
-
-If you go this route:
-- You'll install packages quickly within [Docker](https://www.docker.com/) "containers." This means the container will have just about everything you need in fewer steps.
-- When you're not working on your Wax site, you can destroy the container (and all the software with it!), freeing up space on your computer.
-- The downsides are that you'll need to start a container whenever you want to work with Wax, and the software will run a little slower than if you were running things on your host machine.
+Check Git:
+```sh
+git -v
+```

@@ -8,7 +8,7 @@ permalink: /wax/serving/
 
 # {{ page.title }}
 
-## Locally for development
+## Serving locally for development
 
 If you're running Wax directly on your machine, serving
 \*should\* be as simple as
