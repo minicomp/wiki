@@ -43,14 +43,14 @@ If you don't have current versions for these packages or are starting from scrat
 
 You have two main options for installing the software needed for Wax: __manually on your machine__ or in a __Docker container__. Both options have pros and cons.
 
-Both \*should\* work across Mac, Windows, and Linux machines. You should choose the option that makes the most sense for you and your use case.
+Both options \*should\* work across Mac, Windows, and Linux machines, so you should choose the option that makes the most sense for you and your use case.
 
 ### [Option 1: Install manually](install-manually/)
 
 If you go this route:
 - You'll install things one-by-one directly on your computer.
-- The process will be more tedious, but you'll finish with a robust set of development tools that will help you with many other projects.
-- Your software will run faster, but it will take up space on your computer.
+- The process will be more tedious, but you'll finish with a robust set of development tools that may be broadly applicable to other projects.
+- Your software will run faster than it would in a Docker container.
 
 ### [Option 2: Install with Docker](with-docker/)
 
@@ -116,5 +116,5 @@ docker -v
 
 Check Git:
 ```sh
-git -v
+git --version
 ```
