@@ -33,8 +33,17 @@ permalink: /wax/setting-up-your-site/copy-the-demo-template/
   cd my-wax-site
   ```
 
-7. Install the project-specific Ruby dependencies by running the command
+### If you installed manually:
+
+<span style="display:none">\\</span>7. Install the project-specific Ruby dependencies by running the command<sup>*</sup>
+
   ```sh
   bundle install
   ```
+
 #### \***Note:** If you're using Docker, you do not need to run step \#7. It is run for you whenever you run or enter the container.
+
+
+### If you installed with Docker
+
+<span style="display:none">\\</span>7. Follow the steps on the [Using Docker](../../using-docker/) quick reference to build your container.

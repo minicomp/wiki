@@ -21,12 +21,20 @@ Next, complete the steps 1-6 on [Copying the Demo template](../setting-up-your-s
   ```sh
   docker build -t minicomp/wax .
   ```
-
-> #### \***Note:** Make sure you copy the whole command above, including the "." at the end!
+#### \***Note:** Make sure you copy the whole command above, including the "." at the end!
+<br>
 
 3. Create and access an interactive bash container from the image by running:
   ```sh
   docker run -it --rm -v "$PWD":/wax --name wax -p 4000:4000 minicomp/wax bash
+  ```
+4. **Inside the container**, update the dependencies by running:
+  ```sh
+  bundle update
+  ```
+5. Check that you have the wax_tasks available by running:
+  ```sh
+  bundle exec rake --tasks
   ```
 
 **Whenever you're running Wax's tasks to process collection data or running Jekyll to serve your site, you'll have to do so from within this container.**
