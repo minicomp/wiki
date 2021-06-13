@@ -41,7 +41,7 @@ If you don't have current versions for these packages or are starting from scrat
 
 ## Guides
 
-You have two main options for installing the software needed for Wax: __manually on your machine__ or in a __Docker container__. Both have options have pros and cons.
+You have two main options for installing the software needed for Wax: __manually on your machine__ or in a __Docker container__. Both options have pros and cons.
 
 Both \*should\* work across Mac, Windows, and Linux machines. You should choose the option that makes the most sense for you and your use case.
 
