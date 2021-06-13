@@ -188,10 +188,6 @@
   <li>Build the minicomp/wax base Docker image:
     <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  docker build <span class="nt">-t</span> minicomp/wax <span class="nb">.</span>
 </code></pre></div>    </div>
-  </li>
-</ol>
-
-<blockquote>
       <h4 id="note-make-sure-you-copy-the-whole-command-above-including-the--at-the-end">
         
         
@@ -200,11 +196,18 @@
         
       </h4>
     
-</blockquote>
-
-<ol>
+    <p><br /></p>
+  </li>
   <li>Create and access an interactive bash container from the image by running:
     <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  docker run <span class="nt">-it</span> <span class="nt">--rm</span> <span class="nt">-v</span> <span class="s2">"</span><span class="nv">$PWD</span><span class="s2">"</span>:/wax <span class="nt">--name</span> wax <span class="nt">-p</span> 4000:4000 minicomp/wax bash
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Inside the container</strong>, update the dependencies by running:
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  bundle update
+</code></pre></div>    </div>
+  </li>
+  <li>Check that you have the wax_tasks available by running:
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  bundle <span class="nb">exec </span>rake <span class="nt">--tasks</span>
 </code></pre></div>    </div>
   </li>
 </ol>
