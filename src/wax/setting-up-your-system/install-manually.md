@@ -62,7 +62,7 @@ When you're done, try following along with the [Check for requirements tab](../#
 3. Install Curl <https://curl.se/download.html>
 4. Install ImageMagick by following the instructions on the [ImageMagick Downloads page](https://imagemagick.org/script/download.php#windows) **About half way down one of these is wording something like "Install legacy components (convert.exe etc)". Tick this box!**
 
-5. Follow instructions on the [GhostScript installation page](https://docs.alfresco.com/5.0/tasks/Ghostscript-install.html).
+5. Follow instructions on the [GhostScript downloads page](https://www.ghostscript.com/download/gsdnld.html).
 
 6. Download and install [libvips](https://github.com/libvips/libvips/releases/tag/v8.11) from GitHub.
 
