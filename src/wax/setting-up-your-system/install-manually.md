@@ -60,7 +60,7 @@ When you're done, try following along with the [Check for requirements tab](../#
 
 2. Next install Git. The [Git Download page](https://git-scm.com/downloads) includes good instructions and packages for all three major operating systems.
 
-3. Install ImageMagick by following the instructions on the [ImageMagick Downloads page](https://imagemagick.org/script/download.php#windows)
+3. Install ImageMagick by following the instructions on the [ImageMagick Downloads page](https://imagemagick.org/script/download.php#windows) **About half way down one of these is wording something like "Install legacy components (convert.exe etc)". Tick this box!**
 
 4. Follow instructions on the [GhostScript installation page](https://docs.alfresco.com/5.0/tasks/Ghostscript-install.html).
 
