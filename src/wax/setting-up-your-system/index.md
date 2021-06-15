@@ -74,9 +74,10 @@ ruby -v
 {: .no_toc }
 
 
-Check for Bundler:
+Install & check for Bundler:
 
 ```sh
+gem install bundler
 bundler -v
 ```
 
