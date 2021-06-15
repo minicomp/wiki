@@ -59,12 +59,12 @@ When you're done, try following along with the [Check for requirements tab](../#
 1. First install Ruby. The [RubyInstaller for Windows 10](https://rubyinstaller.org/) is probably the easiest way to get up and running. **Make sure you install a Ruby version > 2.4 and less than 3.0!** On the last installation step make sure to run the `ridk install` step on the last step of the installation wizard.
 
 2. Next install Git. The [Git Download page](https://git-scm.com/downloads) includes good instructions and packages for all three major operating systems.
+3. Install Curl <https://curl.se/download.html>
+4. Install ImageMagick by following the instructions on the [ImageMagick Downloads page](https://imagemagick.org/script/download.php#windows) **About half way down one of these is wording something like "Install legacy components (convert.exe etc)". Tick this box!**
 
-3. Install ImageMagick by following the instructions on the [ImageMagick Downloads page](https://imagemagick.org/script/download.php#windows) **About half way down one of these is wording something like "Install legacy components (convert.exe etc)". Tick this box!**
+5. Follow instructions on the [GhostScript installation page](https://docs.alfresco.com/5.0/tasks/Ghostscript-install.html).
 
-4. Follow instructions on the [GhostScript installation page](https://docs.alfresco.com/5.0/tasks/Ghostscript-install.html).
-
-5. Download and install [libvips](https://github.com/libvips/libvips/releases/tag/v8.11) from GitHub.
+6. Download and install [libvips](https://github.com/libvips/libvips/releases/tag/v8.11) from GitHub.
 
 When you're done, try following along with the [Check for requirements tab](../#check-for-requirements) to make sure everything is ready to go.
 
