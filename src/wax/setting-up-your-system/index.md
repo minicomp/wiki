@@ -70,6 +70,9 @@ Check for Ruby:
 ```sh
 ruby -v
 ```
+#### \***NOTE:** This should be `>=2.4` and < `3.0`!
+{: .no_toc }
+
 
 Check for Bundler:
 
