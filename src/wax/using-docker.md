@@ -26,7 +26,7 @@ Next, complete the steps 1-6 on [Copying the Demo template](../setting-up-your-s
 
 3. Create and access an interactive bash container from the image by running:
   ```sh
-  docker run -it --rm -v "$PWD":/wax --name wax -p 4000:4000 minicomp/wax bash
+  docker run -it --rm -v ${PWD}:/wax --name wax -p 4000:4000 minicomp/wax bash minicomp/wax bash
   ```
 4. **Inside the container**, update the dependencies by running:
   ```sh
