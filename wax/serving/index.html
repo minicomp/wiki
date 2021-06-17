@@ -194,10 +194,10 @@
 
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>jekyll serve <span class="nt">--host</span> 0.0.0.0
 </code></pre></div></div>
-      <h2 id="hosting-remotely">
+      <h2 id="hosting--publishing-online">
         
         
-          <a href="#hosting-remotely" class="anchor-heading" aria-labelledby="hosting-remotely"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Hosting remotely
+          <a href="#hosting--publishing-online" class="anchor-heading" aria-labelledby="hosting--publishing-online"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Hosting / publishing online
         
         
       </h2>
@@ -206,6 +206,30 @@
 <p>There are many options. Our demo uses GitHub pages. You can also use FTP deployment to a server or sync files to an S3 or Min.io bucket.</p>
 
 <p>Have you used these options and would like to share a “recipe” for our Wiki? Please ping us on the <a href="https://docs.google.com/forms/d/e/1FAIpQLSeD77mBp0Y13mFePF8UmDwFrlbxNx3VttEjz_3dgglJeK-Zbg/viewform?c=0&amp;w=1">Code4Lib Slack</a>!</p>
+      <h3 id="with-github-pages">
+        
+        
+          <a href="#with-github-pages" class="anchor-heading" aria-labelledby="with-github-pages"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> With GitHub Pages
+        
+        
+      </h3>
+    
+
+<p>If you have a wax site repository that you want to publish to GitHub pages:</p>
+
+<ol>
+  <li>Go to your repository page on Github.</li>
+  <li>Go to “Settings” &gt; “Pages”.</li>
+  <li>Under “Source”, select the “main” branch and “root” folder and click “Save”.</li>
+  <li>The page should now say something like “Your site is published at <strong>https://my-username.github.io/my-repo-name</strong>”. In this example, <code class="language-plaintext highlighter-rouge">https://my-username.github.io</code> is the URL and <code class="language-plaintext highlighter-rouge">/my-repo-name</code> is the BASEURL.</li>
+  <li>Open your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</li>
+  <li>Replace the <code class="language-plaintext highlighter-rouge">url</code> field with your own url, e.g.,  <code class="language-plaintext highlighter-rouge">https://my-username.github.io</code>. This should NOT have a slash at the end.</li>
+  <li>Replace the baseurl with your own baseurl, which will be the same as your repository name, e.g., <code class="language-plaintext highlighter-rouge">/my-repo-name</code>. This MUST start with a slash.</li>
+  <li>Add, commit, and push your changes.</li>
+  <li>After waiting and refreshing as needed, your site should be published at your complete URL, e.g., <code class="language-plaintext highlighter-rouge">https://my-username.github.io/my-repo-name</code>.</li>
+</ol>
+
+<p>If you have issues or questions, refer to the <a href="https://docs.github.com/en/pages">GitHub Pages Documentation</a>.</p>
 
         
 

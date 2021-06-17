@@ -199,7 +199,7 @@
     <p><br /></p>
   </li>
   <li>Create and access an interactive bash container from the image by running:
-    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  docker run <span class="nt">-it</span> <span class="nt">--rm</span> <span class="nt">-v</span> <span class="s2">"</span><span class="nv">$PWD</span><span class="s2">"</span>:/wax <span class="nt">--name</span> wax <span class="nt">-p</span> 4000:4000 minicomp/wax bash
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  docker run <span class="nt">-it</span> <span class="nt">--rm</span> <span class="nt">-v</span> <span class="k">${</span><span class="nv">PWD</span><span class="k">}</span>:/wax <span class="nt">--name</span> wax <span class="nt">-p</span> 4000:4000 minicomp/wax bash minicomp/wax bash
 </code></pre></div>    </div>
   </li>
   <li><strong>Inside the container</strong>, update the dependencies by running:
