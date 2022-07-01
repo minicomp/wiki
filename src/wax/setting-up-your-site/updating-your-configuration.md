@@ -108,6 +108,8 @@ menu:
         link: '/exhibits/c/'
   - label: 'Browse'
     link: '/collection/'
+  - label: 'Map'
+    link: '/map/'
   - label: 'Search'
     link: '/search/'
   - label: 'Reuse'

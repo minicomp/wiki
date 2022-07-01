@@ -70,7 +70,17 @@ __Some fields are needed for the underlying software of Jekyll and Wax, and shou
 - `full`
 - `manifest`
 
-Everything else should be fair game!
+
+## Optional fields
+
+All other fields should be fair game!
+
+### Map
+
+If you include 'latitude' and 'longitude' values in your metadata, those collection items will be displayed on the "Map" page.
+
+#### \***HINT:** If you need coordinates for a location, right-clicking on a point in [Google Maps](https://www.google.com/maps) will provide the latitude and longitude in the format expected by Wax.
+
 
 ## Troubleshooting
 
