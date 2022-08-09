@@ -30,7 +30,7 @@ end
 
 task :octokit do
   @file   = './src/_data/contributors.json'
-  @client = ENV['TOKEN'].empty? ?
+  @client = ENV['TOKEN'].nil? ?
     Octokit::Client.new :
     Octokit::Client.new(access_token: ENV['TOKEN'])
   @users = {}
