@@ -14,7 +14,7 @@ The following list is a start towards the [all-contributors specification](https
     {% assign user = contributor.github_username %}
     <div class='contributor'>
       <a href="https://github.com/{{ user }}">
-        <img src="https://github.com/{{ user }}.png"/>
+        <img alt="github avatar for @{{ user }}" src="https://github.com/{{ user }}.png"/>
         <p>
           {{ user }}<br>
           {{ contributor.icons }}

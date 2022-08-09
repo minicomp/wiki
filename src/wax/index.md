@@ -7,7 +7,7 @@ nav_order: 4
 ---
 # Minicomp/Wax
 
-<img src="{{ '/assets/wax_screen.gif' | absolute_url }}"/>
+<img alt='zooming image animation' src="{{ '/assets/wax_screen.gif' | absolute_url }}" width=300/>
 
 ## What is Wax?
 
@@ -40,7 +40,7 @@ This is to say that Wax has a relatively high but general-purpose learning curve
 - Using file-naming conventions and best practices.
 - Editing HTML, CSS, and some JavaScript.
 
-**However, Wax is also great for teaching the skills above!** For examples of digital humanities pedagogy through the creation of Wax exhibitions, check out [this workshop series](http://web.sas.upenn.edu/dream-lab/minimalcomputing/), [this GitHub repository](https://github.com/stylerevolution/stylerevolution.github.io), and [this custom Wax site](https://stylerevolution.github.io/).
+**However, Wax is also great for teaching the skills above!** For examples of digital humanities pedagogy through the creation of Wax exhibitions, check out [this workshop series](https://web.sas.upenn.edu/dream-lab/minimalcomputing/), [this GitHub repository](https://github.com/stylerevolution/stylerevolution.github.io), and [this custom Wax site](https://stylerevolution.github.io/).
 
 ## So what does Wax *look like?*
 

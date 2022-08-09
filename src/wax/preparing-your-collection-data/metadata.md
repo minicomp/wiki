@@ -74,7 +74,7 @@ Everything else should be fair game!
 
 ## Troubleshooting
 
-- To normalize and validate your metadata records, try [Open Refine](http://openrefine.org/). You can facet fields and make sure there aren't hidden spaces or sneaky typos in your values.
+- To normalize and validate your metadata records, try [Open Refine](https://openrefine.org/). You can facet fields and make sure there aren't hidden spaces or sneaky typos in your values.
 
 - When you are ready to export your metadata file, save it as your collection name in its simplest form, for example `documents.csv`, `items.json`, `frick.yml`. This will make your job easier later.
 

@@ -10,19 +10,19 @@ nav_order: 3
 ## About
 
 
-Ed is a [Jekyll](https://jekyllrb.com/) theme designed for textual editors based on [minimal computing](http://go-dh.github.io/mincomp/) principles, and focused on legibility, durability, ease and flexibility.
+Ed is a [Jekyll](https://jekyllrb.com/) theme designed for textual editors based on [minimal computing](https://go-dh.github.io/mincomp/) principles, and focused on legibility, durability, ease and flexibility.
 
 
 One of our most pressing and ever revolving needs as scholars is to pass on our textual artifacts from one generation to another. The art of textual editing, among other practices, has helped many cultures to remember and interpret for centuries. Alas, that art is practiced and encouraged in its highest form by a dwindling number of scholars. In a digital environment the problem is compounded by the difficulties of the medium. While vast repositories, and "e-publications" appear on the online scene yearly, very few manifest a textual scholar's disciplined attention to detail. In contrast, most textual scholars who have made the leap to a rigorous digital practice have focused on markup, relying on technical teams to deploy and maintain their work. This makes your average scholarly digital edition a very costly, and therefore limited affair.
 
-As we see it, a minimal edition is one that aims to reduce the size and complexity of the back and front end, and the learning curves for the user and the producer. Out of-the-box, this theme can help you build a simple reading edition, or a traditional scholarly edition with footnotes and a bibliography without breaking the bank. In our estimate, these are the two most immediately useful type of editions for editors and readers. An edition produced with Ed consists of static pages whose rate of decay is substantially lower than database-driven systems. As an added bonus, these static pages require less bandwith. Our hope is that our approach can help beginners or veterans deploy beautiful editions with less effort, that it can help us teach a 'full stack' [in one academic semester](https://github.com/susannalles/MinimalEditions/blob/master/README.md), allow us to care for our projects at less cost, and perhaps, just perhaps, allow us to generate high-quality editions on github.io in large quantities based on the [git-lit](http://jonreeve.com/2015/09/introducing-git-lit/) model by Jonathan Reeve. We're coming for you, Kindle!
+As we see it, a minimal edition is one that aims to reduce the size and complexity of the back and front end, and the learning curves for the user and the producer. Out of-the-box, this theme can help you build a simple reading edition, or a traditional scholarly edition with footnotes and a bibliography without breaking the bank. In our estimate, these are the two most immediately useful type of editions for editors and readers. An edition produced with Ed consists of static pages whose rate of decay is substantially lower than database-driven systems. As an added bonus, these static pages require less bandwith. Our hope is that our approach can help beginners or veterans deploy beautiful editions with less effort, that it can help us teach a 'full stack' [in one academic semester](https://github.com/susannalles/MinimalEditions/blob/master/README.md), allow us to care for our projects at less cost, and perhaps, just perhaps, allow us to generate high-quality editions on github.io in large quantities based on the [git-lit](https://jonreeve.com/2015/09/introducing-git-lit/) model by Jonathan Reeve. We're coming for you, Kindle!
 
 
 ### Sample Ed editions.
 
-- [Our sample site](http://minicomp.github.io/ed/) is the first edition built with Ed.
-- [Fugitive Verses](http://fugitiverses.viraltexts.org/): Popular Reprinted Poetry from Nineteenth Century Newspapers
-- [mini lazarillo](http://minilazarillo.github.io/): A minimal edition of the *Lazarillo de Tormes*
+- [Our sample site](https://minicomp.github.io/ed/) is the first edition built with Ed.
+- [Fugitive Verses](https://fugitiverses.viraltexts.org/): Popular Reprinted Poetry from Nineteenth Century Newspapers
+- [mini lazarillo](https://minilazarillo.github.io/): A minimal edition of the *Lazarillo de Tormes*
 - [Making and Knowing](https://cu-mkp.github.io/GR8975-edition/): The BnF Ms Fr 640 in Translation
 - [Daisy Miller: A Comedy in Three Acts](https://britaneeelizabeth.github.io/ed/texts/DaisyMillerPlay/)
 
@@ -74,7 +74,7 @@ That's it. To see if Ed is working properly we will take advantage of Jekyll's b
 $ jekyll serve
 ~~~
 
-If at any point during this process you had an error you could not resolve, move on to the next section. If the site was rendered fine, copy the url from your terminal log and paste it into your browser of choice (I recommend Firefox). This url usually looks something like this `http://127.0.0.1:4000/ed`. At this point you should be looking at your very own working version of Ed:
+If at any point during this process you had an error you could not resolve, move on to the next section. If the site was rendered fine, copy the url from your terminal log and paste it into your browser of choice (I recommend Firefox). This url usually looks something like this `https://127.0.0.1:4000/ed`. At this point you should be looking at your very own working version of Ed:
 
 ![Your very own Ed]({{ site.baseurl }}/assets/screenshot-home.png)
 
@@ -108,7 +108,7 @@ After the process runs succesfully, read the last few lines generated by the ter
 $ rvm --version
 ~~~
 
-If you don't get an error, you're ready for the next step. If you do get an error, and don't feel comfortable troubleshooting on the terminal, this is a good opportunity to reach out to a friend who can help. You can leave me a note on [the issues page](https://github.com/minicomp/ed/issues), for example. I'll try to get to it as soon as my other commitments permit. If you're comfortable troubleshooting on your own, I recommend Jekyll's own [troubleshooting documentation](http://jekyllrb.com/docs/troubleshooting/). Another great strategy for troubleshooting on the terminal is to copy and paste the errors you receive (sans personal information) into your favorite search engine.
+If you don't get an error, you're ready for the next step. If you do get an error, and don't feel comfortable troubleshooting on the terminal, this is a good opportunity to reach out to a friend who can help. You can leave me a note on [the issues page](https://github.com/minicomp/ed/issues), for example. I'll try to get to it as soon as my other commitments permit. If you're comfortable troubleshooting on your own, I recommend Jekyll's own [troubleshooting documentation](https://jekyllrb.com/docs/troubleshooting/). Another great strategy for troubleshooting on the terminal is to copy and paste the errors you receive (sans personal information) into your favorite search engine.
 
 The next step is to create a gemset for your jekyll projects. A gemset is a set of gems. If you don't create and use a gemset, every gem you install will be applied system-wide. This is not necessarily a bad thing, but if you will have several projects with several setups, this strategy will serve you well in the long run. To create a gemset:
 
@@ -149,7 +149,7 @@ If you are running multiple Ruby environments using bundler, you will need to ad
 $ bundle exec jekyll serve
 ~~~
 
-Copy the url from your terminal log and paste it into your browser of choice (I recommend Firefox). This url usually looks something like this `http://127.0.0.1:4000/ed`. At this point you should be looking at your very own working version of Ed:
+Copy the url from your terminal log and paste it into your browser of choice (I recommend Firefox). This url usually looks something like this `https://127.0.0.1:4000/ed`. At this point you should be looking at your very own working version of Ed:
 
 ![Your very own Ed]({{ site.baseurl }}/assets/screenshot-home.png)
 
@@ -185,9 +185,9 @@ Going forward, updating to a new version of Ed is as simple as changing the rele
 
 ### Jekyll
 
-Ed is a Jekyll theme. That means you will need some familiarity with Jekyll to take advantage of its full potential. While running a Jekyll site is a bit more involved than Wordpress and other similar tools, the payoff in the long term is worth the effort to learn it. If you are new to Jekyll, I recommend you take a look at ["How (and Why) to Generate a Static Website Using Jekyll"](http://chronicle.com/blogs/profhacker/jekyll1/60913) at ProfHacker, Amanda Visconti's excellent [Building a static website with Jekyll and GitHub Pages](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages) on *The Programming Historian* and [Jekyll's own documentation](http://jekyllrb.com/) to start getting a sense of how it works.
+Ed is a Jekyll theme. That means you will need some familiarity with Jekyll to take advantage of its full potential. While running a Jekyll site is a bit more involved than Wordpress and other similar tools, the payoff in the long term is worth the effort to learn it. If you are new to Jekyll, I recommend you take a look at ["How (and Why) to Generate a Static Website Using Jekyll"](https://chronicle.com/blogs/profhacker/jekyll1/60913) at ProfHacker, Amanda Visconti's excellent [Building a static website with Jekyll and GitHub Pages](https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages) on *The Programming Historian* and [Jekyll's own documentation](https://jekyllrb.com/) to start getting a sense of how it works.
 
-Once you have gone through these tutorials, you can get started using Ed by replacing the sample texts included in in the `_texts` folder in Ed with your own edited texts. Remember to always and only edit files in Ed using [a plain text editor](https://en.wikipedia.org/wiki/Text_editor), and *not* a word processor. I'm composing this file using a plain text editor called [Sublime Text](http://www.sublimetext.com/).  
+Once you have gone through these tutorials, you can get started using Ed by replacing the sample texts included in in the `_texts` folder in Ed with your own edited texts. Remember to always and only edit files in Ed using [a plain text editor](https://en.wikipedia.org/wiki/Text_editor), and *not* a word processor. I'm composing this file using a plain text editor called [Sublime Text](https://www.sublimetext.com/).  
 
 An easy way to make new texts is to copy an existing text, replace the content and rename the file. Remember to always use the jekyll convention for naming files: `your-title.md`. You should also make sure that all your texts have the YAML front matter (the information at the top of the file). YAML stands for "YAML Ain't Markup Language"---no disrespect to XML---and it's the main way that Jekyll handles named data. Here's an example of YAML front matter:
 
@@ -199,15 +199,15 @@ author: Aimé Césaire
 ---
 ~~~
 
-Besides replacing content and creating new texts, you will probably  want to edit the `_config.yml` file to replace the boilerplate information we provided with your own personalized information in the relevant categories. Avoid replacing the information in categories that are not clear to you. Make sure to use proper YAML formatting when writing in the `_config.yml` file. Here's [a good reference source](http://docs.ansible.com/ansible/YAMLSyntax.html) in case you have doubts.
+Besides replacing content and creating new texts, you will probably  want to edit the `_config.yml` file to replace the boilerplate information we provided with your own personalized information in the relevant categories. Avoid replacing the information in categories that are not clear to you. Make sure to use proper YAML formatting when writing in the `_config.yml` file. Here's [a good reference source](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) in case you have doubts.
 
 ---
 
 ### Markdown and kramdown
 
-Ed is designed for scholars and amateur editors who want to produce either a clean reading edition or a scholarly annotated edition of a text. The main language we use to write in the Jekyll environment is called Markdown. To learn more about the Markdown family, see Dennis Tenen and Grant Wythoff's "[Sustainable Authorship in Plain Text using Pandoc and Markdown](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)."
+Ed is designed for scholars and amateur editors who want to produce either a clean reading edition or a scholarly annotated edition of a text. The main language we use to write in the Jekyll environment is called Markdown. To learn more about the Markdown family, see Dennis Tenen and Grant Wythoff's "[Sustainable Authorship in Plain Text using Pandoc and Markdown](https://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)."
 
-Our version of Jekyll uses a special Markdown processor called kramdown. The processor can be said to use it's own 'flavor' of Markdown, and sometimes the Markdown syntax will be different than other flavors of Markdown. Kramdown is convenient for scholars because of the way it handles footnotes. You can become familiar with the kramdown syntax in the [kramdown documentation](http://kramdown.gettalong.org/syntax.html). Another way to become familiar is to examine the sample text source files we provided.
+Our version of Jekyll uses a special Markdown processor called kramdown. The processor can be said to use it's own 'flavor' of Markdown, and sometimes the Markdown syntax will be different than other flavors of Markdown. Kramdown is convenient for scholars because of the way it handles footnotes. You can become familiar with the kramdown syntax in the [kramdown documentation](https://kramdown.gettalong.org/syntax.html). Another way to become familiar is to examine the sample text source files we provided.
 
 ---
 
@@ -334,7 +334,7 @@ Besides the homepage and the search page, Ed ships with an About page, `about.md
 
 ### Tables of Content
 
-You will find three kinds of Tables of Content in Ed. The first example is in the list of Sample Texts in the Homepage. This list is generated using the [Liquid Templating language](http://liquidmarkup.org/). This is one of the major components of Jekyll, and I recommend you deepen your knowledge of it if you want to modify the logic that automates much of Ed. Here is the code that generates the Sample Texts list on the homepage:
+You will find three kinds of Tables of Content in Ed. The first example is in the list of Sample Texts in the Homepage. This list is generated using the [Liquid Templating language](https://shopify.github.io/liquid/). This is one of the major components of Jekyll, and I recommend you deepen your knowledge of it if you want to modify the logic that automates much of Ed. Here is the code that generates the Sample Texts list on the homepage:
 
 ~~~ html
 <div class="toc">
@@ -351,7 +351,7 @@ You will find three kinds of Tables of Content in Ed. The first example is in th
 </div>
 ~~~
 
-As you can see, the liquid tags `{%raw%}{% %}{%endraw%}` and `{%raw%}{{ }}{%endraw%}` are embedded into the HTML. Those with `{%raw%}{% %}{%endraw%}` often use programmatic logic, as is the case here. If you are not already familiar with programming languages, you may need to start elsewhere. I recommend learning Ruby, since this is the language used to build jekyll and jekyll-scholar in the first place (it's also the first programming language I used, so I'm biased). The `{%raw%}{{ }}{%endraw%}` simply pulls data from your project. In the example above it pulls the title from each 'post', i.e. each edited text. As you may have noticed already, we are basically adapting the blogging features of Jekyll to our own ends, what Cuban designer and theorist Ernesto Oroza would call "[technological dissobedience](http://www.ernestooroza.com/)."
+As you can see, the liquid tags `{%raw%}{% %}{%endraw%}` and `{%raw%}{{ }}{%endraw%}` are embedded into the HTML. Those with `{%raw%}{% %}{%endraw%}` often use programmatic logic, as is the case here. If you are not already familiar with programming languages, you may need to start elsewhere. I recommend learning Ruby, since this is the language used to build jekyll and jekyll-scholar in the first place (it's also the first programming language I used, so I'm biased). The `{%raw%}{{ }}{%endraw%}` simply pulls data from your project. In the example above it pulls the title from each 'post', i.e. each edited text. As you may have noticed already, we are basically adapting the blogging features of Jekyll to our own ends, what Cuban designer and theorist Ernesto Oroza would call "[technological dissobedience](https://www.ernestooroza.com/)."
 
 The second kind of table of content is exemplified in this documentation. If you open the source file for the documentation, you will notice at the top this snippet:
 
@@ -406,7 +406,7 @@ If you can get over the hurdles, jekyll-scholar can save you enormous amounts of
 
 If everything goes smoothly, you should be able to start using jekyll-scholar at this point. The first thing you may want to do is provide Jekyll with your own bibliographic information in the form of a `.bib` file to replace the content of the `references.bib` file we've provided in the `_bibliography` folder.
 
-To make it easy to create your own version of this file and to keep track of your bibliography for your project, in general I recommend you use [Zotero](http://zotero.org/). To export from Zotero in this format select the references you need from within your Zotero library, right click and select `export in...` and choose the BibLaTeX format. Rename your file to `references.bib` and move it into the `_bibliography` folder. You are, of course, free to create your `references.bib` file using any method you prefer as long as it is a BibTeX file.
+To make it easy to create your own version of this file and to keep track of your bibliography for your project, in general I recommend you use [Zotero](https://zotero.org/). To export from Zotero in this format select the references you need from within your Zotero library, right click and select `export in...` and choose the BibLaTeX format. Rename your file to `references.bib` and move it into the `_bibliography` folder. You are, of course, free to create your `references.bib` file using any method you prefer as long as it is a BibTeX file.
 
 Because as textual editors we are more likely than not to use citations in footnotes or pages that contain footnotes, and because footnotes will be necessarily generated at the bottom of the page, Ed also needs a separate page for your Bibliography or works cited. This is the role of the `bibliography.md` file. Feel free to edit the sample text, but make sure to leave the following line intact:
 
@@ -444,9 +444,9 @@ $ rake ed:publish
 - Make sure to add horizontal rules, `---`, to separate sections in your texts. This creates a more pleasant layout.
 - You can clean unnecessary folders and files from the original Ed package before publishing your site. This will help you reduce overhead. For example, you can erase this page, the sample texts and the `syntax.css` file (used for styling code).
 - Consider providing tips for your readers on how to make their font bigger or smaller by taking advantage of <kbd>Command</kbd> + <kbd>+</kbd> and <kbd>Command</kbd> + <kbd>-</kbd>. Or returning to the top of the page using <kbd>Command</kbd> + <kbd>Up Arrow</kbd>. Part of the philosophy behind Ed is to avoid duplicating features that are already easily available in most web ecosystems.
-- If you want to allow annotations on your site, consider providing a `via.hypothes.is` link. Our sample site can be annotated, for example, using the following link: `https://via.hypothes.is/http://minicomp.github.io/ed/`, which readers can access on the sidebar. Once you've indicated your own URL in the config file, the link will update automatically. Make sure to visit [hypothes.is](https://hypothes.is/) to learn more.
+- If you want to allow annotations on your site, consider providing a `via.hypothes.is` link. Our sample site can be annotated, for example, using the following link: `https://via.hypothes.is/https://minicomp.github.io/ed/`, which readers can access on the sidebar. Once you've indicated your own URL in the config file, the link will update automatically. Make sure to visit [hypothes.is](https://hypothes.is/) to learn more.
 - Ed includes metadata in the headers that makes it easier for users of Zotero, and other systems to grab bibliographic information for the site and individual texts. Our metadata functionality may not be enough to generate a full proper citation. Consider providing visible citation information in your about page or homepage.
-- Make sure to deepen your knowledge of the building blocks of Ed: Jekyll, YAML and Liquid. A great list of resources can be found in the blog "[Jekyll for Web Designers](http://jameswillweb.github.io/jekyll-for-designers/resources.html)".
+- Make sure to deepen your knowledge of the building blocks of Ed: Jekyll, YAML and Liquid. A great list of resources can be found in the blog "[Jekyll for Web Designers](https://jameswillweb.github.io/jekyll-for-designers/resources.html)".
 - Our base themes Poole/Lanyon allow for easily customization of the interface. You can, for example, switch the position of the sidebar, change the theme colors and overlay options. To learn more check out the [Lanyon documentation](https://github.com/poole/lanyon#themes), and make sure to try the green, `.theme-base-0b`, it's really nice.
 - You can change the look and feel of the site as a whole by changing the `color-scheme` in the `_config.yml` file. If you want to have more granularity, short of editing the `css`, you can change the variable values in the `assets/css/style.scss` file.
 - In the `optional` folder you will find a sample `xslt` to help you get started converting TEI to Ed. You will also find css for adding pop-up "balloons" or tooltips to your texts.
@@ -482,7 +482,7 @@ Whether you decide to publish on GitHub pages or not, we recommend that you stil
 
 If you do decide to use the GitHub pages option, please make sure to read the [note below on base urls](#a-note-on-your-base-url).
 
-To publish on GitHub pages, you must have a copy of the repository in GitHub. That means you also need an account there. Once you've created the repository that you will use, you must link your local repository to the one on GitHub. Notice that because you cloned the original source files from my repository, it will be linked to my repository (to which you don't have writing privileges) until you do this step. Instructions for changing the remote URL can be found [here](https://help.github.com/articles/changing-a-remote-s-url/).
+To publish on GitHub pages, you must have a copy of the repository in GitHub. That means you also need an account there. Once you've created the repository that you will use, you must link your local repository to the one on GitHub. Notice that because you cloned the original source files from my repository, it will be linked to my repository (to which you don't have writing privileges) until you do this step. Instructions for changing the remote URL can be found [here](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
 
 The usual way of doing it is to create a different git branch called `gh-pages` within your local repository for your site. This is a branch is published by GitHub by default. GitHub also gives you the option to select [any branch you want to publish](https://github.com/blog/2228-simpler-github-pages-publishing), including the master branch.
 
@@ -498,7 +498,7 @@ Once you are using that branch, you are ready to publish your site. To do so use
 $ git push origin gh-pages
 ~~~
 
-You can now access your site using an address that looks like `http://your-username.github.io/your-project-name`. The sample page for Ed, for example, is hosted at [minicomp.github.io/ed](http://minicomp.github.io/ed).
+You can now access your site using an address that looks like `https://your-username.github.io/your-project-name`. The sample page for Ed, for example, is hosted at [minicomp.github.io/ed](https://minicomp.github.io/ed).
 
 **<span id="a-note-on-your-base-url">A note on your base url</span>**
 

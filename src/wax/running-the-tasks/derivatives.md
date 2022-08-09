@@ -65,7 +65,7 @@ When you run the line above for your collection, the task will:
 
 | Pros | Cons   |
 |:-----|:-------|
-| Image content is __interoperable__, meaning it is standardized, (re)usable, and citable broadly (see: <https://iiif.io/community/faq/#what-is-iiif>)| Slow to generate |
+| Image content is __interoperable__, meaning it is standardized, (re)usable, and citable broadly (see: <https://iiif.io/get-started/how-iiif-works/>)| Slow to generate |
 | Image content can leverage embedded metadata   | Slower to load on the page than simple derivatives  |
 | Can handle multiple images / paged content per collection item   | Requires the page to use a JS image viewer  |
 | Offers deep zooming of full images with no loss; Images are loaded quickly relative to the high resolution offered   | Higher technical overhead, more complex |

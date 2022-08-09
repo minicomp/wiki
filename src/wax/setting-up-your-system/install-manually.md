@@ -61,7 +61,7 @@ When you're done, try following along with the [Check for requirements tab](../#
 2. Next install Git. The [Git Download page](https://git-scm.com/downloads) includes good instructions and packages for all three major operating systems.
 5. Install ImageMagick by following the instructions on the [ImageMagick Downloads page](https://imagemagick.org/script/download.php#windows) **IMPORTANT!!! About half way down one of the install option menus is a checkbox with something like "Install legacy components (convert.exe etc)". Tick this box!!!!**
 
-5. Follow instructions on the [GhostScript downloads page](https://www.ghostscript.com/download/gsdnld.html).
+5. Follow instructions on the [GhostScript downloads page](https://ghostscript.com/releases/index.html).
 
 6. Download and install [libvips](https://github.com/libvips/libvips/releases/tag/v8.11) from GitHub.
 
