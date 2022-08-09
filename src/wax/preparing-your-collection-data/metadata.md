@@ -66,6 +66,7 @@ __Some fields are needed for the underlying software of Jekyll and Wax, and shou
 
 - `id`
 - `date` (use `_date` instead)
+- `tags` (use `_tags` instead)
 - `thumbnail`
 - `full`
 - `manifest`
