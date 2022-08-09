@@ -101,23 +101,23 @@
     "url": "/wiki/wax/preparing-your-collection-data/image-data/#naming-your-files",
     "relUrl": "/wax/preparing-your-collection-data/image-data/#naming-your-files"
   },"17": {
-    "doc": "Using theme layouts",
-    "title": "Using theme layouts",
-    "content": "Wax five layouts for you to use and/or expand on: wax/default.html, wax/page.html, wax/exhibit.html, wax/collection_item.html, and wax/reuse_page.html. (See them on Github.) . You can tell a page to use a layout by adding it to the page’s front-matter, for example: . _exhibits/my-exhibit.md . --- title: 'My Exhibit' layout: wax/exhibit --- . Or you can make your own layout file that inherits from a Wax layout, for example the qatar_item.html layout which inherits from generic_collection_item.html: . _layouts/qatar_item.html . --- layout: generic_collection_item.html image_viewer: 'openseadragon' pagination: true meta: - label: 'Object Label' value: page.label - label: 'Artist' value: page.artist - label: 'Object Type' value: page.object_type - label: 'Location' value: page.location - label: 'Current Location' value: page.current_location - label: 'Date' value: page.\\_date - label: 'Source' value: page.source --- . ",
-    "url": "/wiki/wax/using-theme-layouts/",
-    "relUrl": "/wax/using-theme-layouts/"
-  },"18": {
     "doc": "Using theme components",
     "title": "Using theme components",
     "content": "In the parlance of Jekyll, components are called includes and live in the _includes folder. They are just like shortcodes in WordPress in that they’re quick, reusable blocks. Wax comes with a lot of includes that you can browse on Github here. The easiest way to get started using Wax includes is by seeing how they’re used in the Wax demo site and trying them out on your own. ",
     "url": "/wiki/wax/using-theme-components/",
     "relUrl": "/wax/using-theme-components/"
-  },"19": {
+  },"18": {
     "doc": "Using theme components",
     "title": "Includes",
     "content": ". | collection_gallery.html | footer.html | head.html | header.html | inline_image.html | interactive_metadata_table.html | item_metadata.html | item_pagination.html | osd_iiif_image_viewer.html | parallax_image.html | search_box.html | simple_image_viewer.html | . ",
     "url": "/wiki/wax/using-theme-components/#includes",
     "relUrl": "/wax/using-theme-components/#includes"
+  },"19": {
+    "doc": "Using theme layouts",
+    "title": "Using theme layouts",
+    "content": "Wax five layouts for you to use and/or expand on: wax/default.html, wax/page.html, wax/exhibit.html, wax/collection_item.html, and wax/reuse_page.html. (See them on Github.) . You can tell a page to use a layout by adding it to the page’s front-matter, for example: . _exhibits/my-exhibit.md . --- title: 'My Exhibit' layout: wax/exhibit --- . Or you can make your own layout file that inherits from a Wax layout, for example the qatar_item.html layout which inherits from generic_collection_item.html: . _layouts/qatar_item.html . --- layout: generic_collection_item.html image_viewer: 'openseadragon' pagination: true meta: - label: 'Object Label' value: page.label - label: 'Artist' value: page.artist - label: 'Object Type' value: page.object_type - label: 'Location' value: page.location - label: 'Current Location' value: page.current_location - label: 'Date' value: page.\\_date - label: 'Source' value: page.source --- . ",
+    "url": "/wiki/wax/using-theme-layouts/",
+    "relUrl": "/wax/using-theme-layouts/"
   },"20": {
     "doc": "Preparing your collection data",
     "title": "Preparing your collection data",
@@ -131,59 +131,59 @@
     "url": "/wiki/wax/preparing-your-collection-data/#what-youll-need",
     "relUrl": "/wax/preparing-your-collection-data/#what-youll-need"
   },"22": {
-    "doc": "Setting up your site",
-    "title": "Setting up your site",
-    "content": "There are a few ways to get started building your Wax site, depending on your needs. Advanced Jekyllers can start a Jekyll site from scratch and add the wax_theme gem. However, it is recommended that you use the demo site as a template repository and swap in your collection data and exhibition content. This Wiki will show you how to do the latter. ",
-    "url": "/wiki/wax/setting-up-your-site/",
-    "relUrl": "/wax/setting-up-your-site/"
-  },"23": {
-    "doc": "Setting up your system",
-    "title": "Setting up your system",
-    "content": "Since Wax produces static sites, all of the software runs on your own computer. This process spits out an HTML website that can be hosted easily without complex software on a server. This workflow is very freeing in terms of maintenance, but does mean there’s a higher barrier to getting started initially. We have a few installation guides and options available to help you through this process. ",
-    "url": "/wiki/wax/setting-up-your-system/",
-    "relUrl": "/wax/setting-up-your-system/"
-  },"24": {
-    "doc": "Setting up your system",
-    "title": "Table of Contents",
-    "content": ". | Requirements | Guides . | Option 1: Install manually | Option 2: Install with Docker | . | Check for requirements . | Manual install checks | Docker install checks | . | . ",
-    "url": "/wiki/wax/setting-up-your-system/#table-of-contents",
-    "relUrl": "/wax/setting-up-your-system/#table-of-contents"
-  },"25": {
-    "doc": "Setting up your system",
-    "title": "Requirements",
-    "content": "Ultimately, you’ll need: . | Ruby (&gt;=2.4) with Bundler | Git | ImageMagick | GhostScript | Libvips* | . *NOTE: If you’re using a newer wax_tasks, we also recommend you install Libvips, which will replace ImageMagick in our stack. You can check your versions by running the commands below in your terminal/shell of choice. If you don’t have current versions for these packages or are starting from scratch, see our Installation Guides. ",
-    "url": "/wiki/wax/setting-up-your-system/#requirements",
-    "relUrl": "/wax/setting-up-your-system/#requirements"
-  },"26": {
-    "doc": "Setting up your system",
-    "title": "Guides",
-    "content": "You have two main options for installing the software needed for Wax: manually on your machine or in a Docker container. Both options have pros and cons. Both options *should* work across Mac, Windows, and Linux machines, so you should choose the option that makes the most sense for you and your use case. Option 1: Install manually . If you go this route: . | You’ll install things one-by-one directly on your computer. | The process will be more tedious, but you’ll finish with a robust set of development tools that may be broadly applicable to other projects. | Your software will run faster than it would in a Docker container. | . Option 2: Install with Docker . If you go this route: . | You’ll install packages quickly within Docker “containers.” This means the container will have just about everything you need in fewer steps. | When you’re not working on your Wax site, you can destroy the container (and all the software with it!), freeing up space on your computer. | The downsides are that you’ll need to start a container whenever you want to work with Wax, and the software will run a little slower than if you were running things on your host machine. | . ",
-    "url": "/wiki/wax/setting-up-your-system/#guides",
-    "relUrl": "/wax/setting-up-your-system/#guides"
-  },"27": {
-    "doc": "Setting up your system",
-    "title": "Check for requirements",
-    "content": "Manual install checks . If you installed the software manually, you can run the following commands directly in your Terminal/shell app. Check for Ruby: . ruby -v . *NOTE: This should be &gt;=2.4 and &lt; 3.0! . Install &amp; check for Bundler: . gem install bundler bundler -v . Check for Git: . git --version . To process images, you will also need to have ImageMagick and Ghostscript installed and functional. (Vips for later versions.) . Check ImageMagick: . convert -version . Check Ghostscript: . gs -version . Check Libvips: . vips -version . Docker install checks . If you installed with Docker, all of the required software will be inside your Docker container except for Git, which is installed on your directly on your computer. At this stage, you’ll only need to check for Docker and Git by running the following checks in your Terminal/shell app. Check Docker: . docker -v . Check Git: . git --version . ",
-    "url": "/wiki/wax/setting-up-your-system/#check-for-requirements",
-    "relUrl": "/wax/setting-up-your-system/#check-for-requirements"
-  },"28": {
     "doc": "Running the tasks",
     "title": "Running the main tasks",
     "content": "The order in which you run the following rake tasks is important! For example, the derivatives tasks give information to the metadata file, so it needs to be run before the pages task generates pages from the metadata. And the search task indexes the collection markdown pages, so those pages need to exist before it is run. ",
     "url": "/wiki/wax/running-the-tasks/#running-the-main-tasks",
     "relUrl": "/wax/running-the-tasks/#running-the-main-tasks"
-  },"29": {
+  },"23": {
     "doc": "Running the tasks",
     "title": "A note on using Docker!",
     "content": "For all of the steps here on “running the tasks,” you’ll need to run the commands from within your Docker container. You can find a cheatsheet here. Step 1: Make sure you have the tasks available. You can check by running bundle exec rake --tasks. You should see a list of tasks printed in your shell window. Step 2: Generate the image derivatives for your collection from the source images. You’ll do this by running one of the wax:derivatives tasks. Step 3: Generate the collection pages from the metadata records. You’ll do this by running the wax:pages task. Step 4: Generate the search index. You’ll do this by running the wax:search task. ",
     "url": "/wiki/wax/running-the-tasks/#a-note-on-using-docker",
     "relUrl": "/wax/running-the-tasks/#a-note-on-using-docker"
-  },"30": {
+  },"24": {
     "doc": "Running the tasks",
     "title": "Running the tasks",
     "content": " ",
     "url": "/wiki/wax/running-the-tasks/",
     "relUrl": "/wax/running-the-tasks/"
+  },"25": {
+    "doc": "Setting up your site",
+    "title": "Setting up your site",
+    "content": "There are a few ways to get started building your Wax site, depending on your needs. Advanced Jekyllers can start a Jekyll site from scratch and add the wax_theme gem. However, it is recommended that you use the demo site as a template repository and swap in your collection data and exhibition content. This Wiki will show you how to do the latter. ",
+    "url": "/wiki/wax/setting-up-your-site/",
+    "relUrl": "/wax/setting-up-your-site/"
+  },"26": {
+    "doc": "Setting up your system",
+    "title": "Setting up your system",
+    "content": "Since Wax produces static sites, all of the software runs on your own computer. This process spits out an HTML website that can be hosted easily without complex software on a server. This workflow is very freeing in terms of maintenance, but does mean there’s a higher barrier to getting started initially. We have a few installation guides and options available to help you through this process. ",
+    "url": "/wiki/wax/setting-up-your-system/",
+    "relUrl": "/wax/setting-up-your-system/"
+  },"27": {
+    "doc": "Setting up your system",
+    "title": "Table of Contents",
+    "content": ". | Requirements | Guides . | Option 1: Install manually | Option 2: Install with Docker | . | Check for requirements . | Manual install checks | Docker install checks | . | . ",
+    "url": "/wiki/wax/setting-up-your-system/#table-of-contents",
+    "relUrl": "/wax/setting-up-your-system/#table-of-contents"
+  },"28": {
+    "doc": "Setting up your system",
+    "title": "Requirements",
+    "content": "Ultimately, you’ll need: . | Ruby (&gt;=2.4) with Bundler | Git | ImageMagick | GhostScript | Libvips* | . *NOTE: If you’re using a newer wax_tasks, we also recommend you install Libvips, which will replace ImageMagick in our stack. You can check your versions by running the commands below in your terminal/shell of choice. If you don’t have current versions for these packages or are starting from scratch, see our Installation Guides. ",
+    "url": "/wiki/wax/setting-up-your-system/#requirements",
+    "relUrl": "/wax/setting-up-your-system/#requirements"
+  },"29": {
+    "doc": "Setting up your system",
+    "title": "Guides",
+    "content": "You have two main options for installing the software needed for Wax: manually on your machine or in a Docker container. Both options have pros and cons. Both options *should* work across Mac, Windows, and Linux machines, so you should choose the option that makes the most sense for you and your use case. Option 1: Install manually . If you go this route: . | You’ll install things one-by-one directly on your computer. | The process will be more tedious, but you’ll finish with a robust set of development tools that may be broadly applicable to other projects. | Your software will run faster than it would in a Docker container. | . Option 2: Install with Docker . If you go this route: . | You’ll install packages quickly within Docker “containers.” This means the container will have just about everything you need in fewer steps. | When you’re not working on your Wax site, you can destroy the container (and all the software with it!), freeing up space on your computer. | The downsides are that you’ll need to start a container whenever you want to work with Wax, and the software will run a little slower than if you were running things on your host machine. | . ",
+    "url": "/wiki/wax/setting-up-your-system/#guides",
+    "relUrl": "/wax/setting-up-your-system/#guides"
+  },"30": {
+    "doc": "Setting up your system",
+    "title": "Check for requirements",
+    "content": "Manual install checks . If you installed the software manually, you can run the following commands directly in your Terminal/shell app. Check for Ruby: . ruby -v . *NOTE: This should be &gt;=2.4 and &lt; 3.0! . Install &amp; check for Bundler: . gem install bundler bundler -v . Check for Git: . git --version . To process images, you will also need to have ImageMagick and Ghostscript installed and functional. (Vips for later versions.) . Check ImageMagick: . convert -version . Check Ghostscript: . gs -version . Check Libvips: . vips -version . Docker install checks . If you installed with Docker, all of the required software will be inside your Docker container except for Git, which is installed on your directly on your computer. At this stage, you’ll only need to check for Docker and Git by running the following checks in your Terminal/shell app. Check Docker: . docker -v . Check Git: . git --version . ",
+    "url": "/wiki/wax/setting-up-your-system/#check-for-requirements",
+    "relUrl": "/wax/setting-up-your-system/#check-for-requirements"
   },"31": {
     "doc": "Wax",
     "title": "Minicomp/Wax",
@@ -427,7 +427,7 @@
   },"71": {
     "doc": "Using Docker",
     "title": "Using Docker",
-    "content": "Using Docker to install and run the software behind Wax can be a convenient strategy. To do so, you’ll need to first follow the steps on our Docker installation guide. Next, complete the steps 1-6 on Copying the Demo template. Instead of running bundle install you should: . | Make sure you are inside your cloned repository (from Copying the Demo template). You can check where you are by running: pwd . | Build the minicomp/wax base Docker image: docker build -t minicomp/wax . *Note: Make sure you copy the whole command above, including the “.” at the end! . | Create and access an interactive bash container from the image by running: docker run -it --rm -v ${PWD}:/wax --name wax -p 4000:4000 minicomp/wax bash minicomp/wax bash . | Inside the container, update the dependencies by running: bundle update . | Check that you have the wax_tasks available by running: bundle exec rake --tasks . | . Whenever you’re running Wax’s tasks to process collection data or running Jekyll to serve your site, you’ll have to do so from within this container. You can exit any time by typing the command exit, which will destroy the container but not the base image. Create and access a new one as needed by running the command starting with docker run ... above. *Note: Make sure you use Git commands outside the container, on your host computer! . ",
+    "content": "Using Docker to install and run the software behind Wax can be a convenient strategy. To do so, you’ll need to first follow the steps on our Docker installation guide. Next, complete the steps 1-6 on Copying the Demo template. Instead of running bundle install you should: . | Make sure you are inside your cloned repository (from Copying the Demo template). You can check where you are by running: pwd . | Build the minicomp/wax base Docker image: docker build -t minicomp/wax . *Note: Make sure you copy the whole command above, including the “.” at the end! . | Create and access an interactive bash container from the image by running: docker run -it --rm -v ${PWD}:/wax --name wax -p 4000:4000 minicomp/wax bash . | Inside the container, update the dependencies by running: bundle update . | Check that you have the wax_tasks available by running: bundle exec rake --tasks . | . Whenever you’re running Wax’s tasks to process collection data or running Jekyll to serve your site, you’ll have to do so from within this container. You can exit any time by typing the command exit, which will destroy the container but not the base image. Create and access a new one as needed by running the command starting with docker run ... above. *Note: Make sure you use Git commands outside the container, on your host computer! . ",
     "url": "/wiki/wax/using-docker/",
     "relUrl": "/wax/using-docker/"
   },"72": {
