@@ -682,12 +682,13 @@
 <p><strong>Some fields are needed for the underlying software of Jekyll and Wax, and should not be used in your metadata file</strong>. You should not manually create these fields (unless you know what you’re doing!), and should avoid these keys in your metadata:</p>
 
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">id</code></li>
+  <li><code class="language-plaintext highlighter-rouge">id</code> (use <code class="language-plaintext highlighter-rouge">pid</code> instead)</li>
   <li><code class="language-plaintext highlighter-rouge">date</code> (use <code class="language-plaintext highlighter-rouge">_date</code> instead)</li>
   <li><code class="language-plaintext highlighter-rouge">tags</code> (use <code class="language-plaintext highlighter-rouge">_tags</code> instead)</li>
-  <li><code class="language-plaintext highlighter-rouge">thumbnail</code></li>
-  <li><code class="language-plaintext highlighter-rouge">full</code></li>
-  <li><code class="language-plaintext highlighter-rouge">manifest</code></li>
+  <li><code class="language-plaintext highlighter-rouge">collection</code> (wax will generate this)</li>
+  <li><code class="language-plaintext highlighter-rouge">thumbnail</code> (wax will generate this)</li>
+  <li><code class="language-plaintext highlighter-rouge">full</code> (wax will generate this)</li>
+  <li><code class="language-plaintext highlighter-rouge">manifest</code> (wax will generate this)</li>
 </ul>
 
 <p>Everything else should be fair game!</p>

@@ -331,7 +331,7 @@
   },"55": {
     "doc": "Metadata file",
     "title": "Fields to avoid",
-    "content": "Some fields are needed for the underlying software of Jekyll and Wax, and should not be used in your metadata file. You should not manually create these fields (unless you know what you’re doing!), and should avoid these keys in your metadata: . | id | date (use _date instead) | tags (use _tags instead) | thumbnail | full | manifest | . Everything else should be fair game! . ",
+    "content": "Some fields are needed for the underlying software of Jekyll and Wax, and should not be used in your metadata file. You should not manually create these fields (unless you know what you’re doing!), and should avoid these keys in your metadata: . | id (use pid instead) | date (use _date instead) | tags (use _tags instead) | collection (wax will generate this) | thumbnail (wax will generate this) | full (wax will generate this) | manifest (wax will generate this) | . Everything else should be fair game! . ",
     "url": "/wiki/wax/preparing-your-collection-data/metadata/#fields-to-avoid",
     "relUrl": "/wax/preparing-your-collection-data/metadata/#fields-to-avoid"
   },"56": {
