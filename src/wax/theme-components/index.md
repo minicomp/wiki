@@ -10,7 +10,7 @@ parent: Wax
 
 In the parlance of Jekyll, components are called `includes` and live in the `_includes` folder. They are just like __shortcodes__ in WordPress in that they're quick, reusable blocks.
 
-__Wax__ comes with a lot of `includes` that you can browse on Github [here](https://github.com/minicomp/wax/tree/master/_includes). The easiest way to get started using Wax `includes` is by seeing how they're used in the [Wax demo site](https://github.com/minicomp/wax/) and trying them out on your own.
+__Wax__ comes with a lot of `includes` that you can browse on Github [here](https://github.com/minicomp/wax/tree/main/_includes). The easiest way to get started using Wax `includes` is by seeing how they're used in the [Wax demo site](https://github.com/minicomp/wax/) and trying them out on your own.
 
 ## Includes
 
