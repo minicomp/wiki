@@ -64,12 +64,13 @@ Each record (i.e., spreadsheet row or JSON object) needs two fields:
 
 __Some fields are needed for the underlying software of Jekyll and Wax, and should not be used in your metadata file__. You should not manually create these fields (unless you know what you're doing!), and should avoid these keys in your metadata:
 
-- `id`
+- `id` (use `pid` instead)
 - `date` (use `_date` instead)
 - `tags` (use `_tags` instead)
-- `thumbnail`
-- `full`
-- `manifest`
+- `collection` (wax will generate this)
+- `thumbnail` (wax will generate this)
+- `full` (wax will generate this)
+- `manifest` (wax will generate this)
 
 Everything else should be fair game!
 
