@@ -57,11 +57,12 @@ task :octokit do
       else
         @users[user] = {
           issues: user_issues.length,
-          avatar_url: Octokit.user(user).avatar_url
+          avatar_url: user_issues.first.user.avatar_url
         }
       end
     end
   end
-  @data = @users.sort_by { |_k, v| -v[:contributions] }.to_h
+  @data = @users.sort_by { |_k, v| -v.fetch(:contributions, 0) }.to_h
+
   File.open(@file, 'w') { |f| f.write JSON.pretty_generate(@data) }
 end

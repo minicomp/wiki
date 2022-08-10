@@ -1,0 +1,60 @@
+
+<style>
+  .contributors {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contributor  {
+    flex: auto;
+    max-width: 15%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  a.no-hover-line {
+    background-image: unset !important;
+  }
+  a.no-hover-line:hover {
+    background-image: unset !important;
+  }
+  .contributor p.contributor-info {
+    font-size: .7em;
+    line-height: 1em;
+    padding: .2rem 0;
+    margin: 0;
+  }
+  .contributor p.username {
+    font-weight: bold;
+    font-size: .8em;
+  }
+  .contributor img {
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+</style>
+
+<div class="contributors">
+  {% for c in site.data.contributors %}
+  {% assign user    = c[0] %}
+  {% assign img     = c[1].avatar_url %}
+  {% assign ccount  = c[1].contributions %}
+  {% assign icount  = c[1].issues %}
+  <div class="contributor">
+    <a class="no-hover-line" href="https://github.com/{{ user }}">
+      <img src="{{ img }}?s=100" width="100" alt="github avatar for @{{ user }}"/><br>
+    </a>
+    <p class="contributor-info username">
+      <a href="https://github.com/{{ user }}">@{{ user }}</a>
+    </p>
+    {% if ccount.size %}
+      <p class="contributor-info commit-count">
+        🛠️🐝 {{ ccount }} commit{% if ccount > 1%}s{% endif %}
+      </p>
+    {% endif %}
+    {% if icount.size %}
+      <p class="contributor-info issue-count">
+        🐛👀 {{ icount }} issue{% if icount > 1%}s{% endif %}
+      </p>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>

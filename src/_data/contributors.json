@@ -1,19 +1,23 @@
 {
   "elotroalex": {
     "contributions": 553,
-    "avatar_url": "https://avatars.githubusercontent.com/u/242606?v=4"
+    "avatar_url": "https://avatars.githubusercontent.com/u/242606?v=4",
+    "issues": 17
   },
   "mnyrop": {
-    "contributions": 514,
-    "avatar_url": "https://avatars.githubusercontent.com/u/25022284?v=4"
+    "contributions": 519,
+    "avatar_url": "https://avatars.githubusercontent.com/u/25022284?v=4",
+    "issues": 40
   },
   "karlstolley": {
     "contributions": 107,
-    "avatar_url": "https://avatars.githubusercontent.com/u/170719?v=4"
+    "avatar_url": "https://avatars.githubusercontent.com/u/170719?v=4",
+    "issues": 7
   },
   "amzoss": {
     "contributions": 60,
-    "avatar_url": "https://avatars.githubusercontent.com/u/4193810?v=4"
+    "avatar_url": "https://avatars.githubusercontent.com/u/4193810?v=4",
+    "issues": 16
   },
   "workergnome": {
     "contributions": 40,
@@ -25,54 +29,187 @@
   },
   "KitaitiMakoto": {
     "contributions": 6,
-    "avatar_url": "https://avatars.githubusercontent.com/u/386512?v=4"
+    "avatar_url": "https://avatars.githubusercontent.com/u/386512?v=4",
+    "issues": 1
   },
   "zoews": {
     "contributions": 3,
-    "avatar_url": "https://avatars.githubusercontent.com/u/12399460?v=4"
+    "avatar_url": "https://avatars.githubusercontent.com/u/12399460?v=4",
+    "issues": 1
+  },
+  "pbinkley": {
+    "issues": 5,
+    "avatar_url": "https://avatars.githubusercontent.com/u/272816?v=4",
+    "contributions": 2
   },
   "bmschmidt": {
     "contributions": 2,
-    "avatar_url": "https://avatars.githubusercontent.com/u/1110758?v=4"
+    "avatar_url": "https://avatars.githubusercontent.com/u/1110758?v=4",
+    "issues": 7
   },
   "tcatapano": {
     "contributions": 2,
-    "avatar_url": "https://avatars.githubusercontent.com/u/966898?v=4"
-  },
-  "pbinkley": {
-    "contributions": 2,
-    "avatar_url": "https://avatars.githubusercontent.com/u/272816?v=4"
-  },
-  "sagarjauhari": {
-    "contributions": 1,
-    "avatar_url": "https://avatars.githubusercontent.com/u/1958807?v=4"
-  },
-  "ngeraci": {
-    "contributions": 1,
-    "avatar_url": "https://avatars.githubusercontent.com/u/23507721?v=4"
-  },
-  "chrisfinazzo": {
-    "contributions": 1,
-    "avatar_url": "https://avatars.githubusercontent.com/u/1534882?v=4"
-  },
-  "camillevilla": {
-    "contributions": 1,
-    "avatar_url": "https://avatars.githubusercontent.com/u/5402927?v=4"
-  },
-  "frederik-elwert": {
-    "contributions": 1,
-    "avatar_url": "https://avatars.githubusercontent.com/u/3049661?v=4"
-  },
-  "bulbil": {
-    "contributions": 1,
-    "avatar_url": "https://avatars.githubusercontent.com/u/2319626?v=4"
+    "avatar_url": "https://avatars.githubusercontent.com/u/966898?v=4",
+    "issues": 1
   },
   "MartinPaulEve": {
     "contributions": 1,
     "avatar_url": "https://avatars.githubusercontent.com/u/1042615?v=4"
   },
+  "sagarjauhari": {
+    "contributions": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/1958807?v=4"
+  },
+  "frederik-elwert": {
+    "issues": 3,
+    "avatar_url": "https://avatars.githubusercontent.com/u/3049661?v=4",
+    "contributions": 1
+  },
+  "bulbil": {
+    "issues": 3,
+    "avatar_url": "https://avatars.githubusercontent.com/u/2319626?v=4",
+    "contributions": 1
+  },
+  "chrisfinazzo": {
+    "contributions": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/1534882?v=4",
+    "issues": 1
+  },
   "dzoladz": {
     "contributions": 1,
     "avatar_url": "https://avatars.githubusercontent.com/u/10561752?v=4"
+  },
+  "ngeraci": {
+    "contributions": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/23507721?v=4",
+    "issues": 1
+  },
+  "camillevilla": {
+    "contributions": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/5402927?v=4"
+  },
+  "chipbrock": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/4515277?v=4"
+  },
+  "herdofsheep": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/32294529?v=4"
+  },
+  "awoods": {
+    "issues": 6,
+    "avatar_url": "https://avatars.githubusercontent.com/u/149283?v=4"
+  },
+  "dnoneill": {
+    "issues": 4,
+    "avatar_url": "https://avatars.githubusercontent.com/u/19173991?v=4"
+  },
+  "ej2432": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/64559180?v=4"
+  },
+  "martimpassos": {
+    "issues": 2,
+    "avatar_url": "https://avatars.githubusercontent.com/u/49573683?v=4"
+  },
+  "sheishistoric": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/8959416?v=4"
+  },
+  "SanjidaParvin": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/82237207?v=4"
+  },
+  "roopikarisam": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/13203506?v=4"
+  },
+  "elbynum": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/51407345?v=4"
+  },
+  "evanwill": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/13864643?v=4"
+  },
+  "ansleyerickson": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/66023956?v=4"
+  },
+  "quinnanya": {
+    "issues": 2,
+    "avatar_url": "https://avatars.githubusercontent.com/u/712016?v=4"
+  },
+  "yuhouzhou": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/45440732?v=4"
+  },
+  "tonymuu": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/10318596?v=4"
+  },
+  "bobbylcraig": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/8980594?v=4"
+  },
+  "ana-lam": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/35204732?v=4"
+  },
+  "nikhilweee": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/8774119?v=4"
+  },
+  "iamscotttaylor": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/4513204?v=4"
+  },
+  "muziejus": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/827683?v=4"
+  },
+  "Arconapalus": {
+    "issues": 2,
+    "avatar_url": "https://avatars.githubusercontent.com/u/11588130?v=4"
+  },
+  "sergeyklay": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/1256298?v=4"
+  },
+  "jloan": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/1765091?v=4"
+  },
+  "kHarshit": {
+    "issues": 2,
+    "avatar_url": "https://avatars.githubusercontent.com/u/20869671?v=4"
+  },
+  "malcommac": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/235645?v=4"
+  },
+  "ktbee": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/7991694?v=4"
+  },
+  "cryptic0": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/955341?v=4"
+  },
+  "shoaibkhanz": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/6944091?v=4"
+  },
+  "atmcgrath": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/17772249?v=4"
+  },
+  "andry-tino": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/6501517?v=4"
+  },
+  "fn-ix": {
+    "issues": 1,
+    "avatar_url": "https://avatars.githubusercontent.com/u/16854594?v=4"
   }
 }
