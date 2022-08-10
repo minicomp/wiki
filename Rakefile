@@ -39,11 +39,25 @@ task :octokit do
     @client.contribs(repo).each do |user|
       next if user.type == 'Bot' or user.login == 'gitter-badger'
       if @users.key? user.login
+        @users[user.login][:contributions] ||= 0
         @users[user.login][:contributions] += user.contributions
       else
         @users[user.login] = {
           contributions: user.contributions,
           avatar_url: user.avatar_url
+        }
+      end
+    end
+    issues = @client.list_issues(repo, state: 'all').group_by { |i| i.user.login }
+    issues.each do |user, user_issues|
+      next if user.include? '[bot]'
+      if @users.key? user
+        @users[user][:issues] ||= 0
+        @users[user][:issues] += user_issues.length
+      else
+        @users[user] = {
+          issues: user_issues.length,
+          avatar_url: Octokit.user(user).avatar_url
         }
       end
     end
